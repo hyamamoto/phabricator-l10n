@@ -10,7 +10,7 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     return array(
 
     
-      ' IMPORTANT: OBJECTS WILL BE PERMANENTLY DESTROYED! ' => '重要: オブジェクトは永久的に破壊されます!',
+      ' IMPORTANT: OBJECTS WILL BE PERMANENTLY DESTROYED! ' => ' 重要: オブジェクトは永久的に破壊されます! ',
     
       '"%s" Account' => '"%s" アカウント',
     
@@ -18,7 +18,7 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       '"%s" User' => '"%s" ユーザ',
     
-      '"%s" date can not be parsed.' => '"%s" 日付は、パースにかけることができません.',
+      '"%s" date can not be parsed.' => '日付 "%s" は, パースすることできません.',
     
       '"%s" must be a date before "%s".' => '"%s" の日付は "%s" より前でなければなりません.',
     
@@ -182,6 +182,16 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       '%s added inline comments.' => '%s がインラインコメントを追加した.',
     
+      '%s added reviewers to revision %s' => '%s がリビジョン %s にレビュアーを追加した',
+    
+      '%s added reviewers to revision %s %s' => '%s がリビジョン %s %s にレビュアーを追加した',
+    
+      '%s added reviewers to this revision.' => '%s がこのリビジョンにレビュアーを追加した.',
+    
+      '%s added subscribers...' => '%s が購読者を追加した...',
+    
+      '%s added subscribers: %s.' => '%s が購読者を追加した: %s.',
+    
       '%s ago (%s)' => '%s 前 (%s)',
     
       '%s allowed Conduit API access to this credential.' => '%s がこのクレデンシャルに対する Conduit API によるアクセスを許可した.',
@@ -195,10 +205,6 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       '%s awarded %s a %s token.' => '%s が %s に %s のトークンを与えた.',
     
       '%s awarded a token.' => '%s がトークンを与えた.',
-    
-      '%s changed the availability of this repository over HTTP from "%s" to "%s".' => '%s がこのレポジトリの HTTP 経由利用を "%s" から "%s" に変更しました.',
-    
-      '%s changed the availability of this repository over SSH from "%s" to "%s".' => '%s がこのレポジトリの SSH 経由利用を "%s" から "%s" に変更しました.',
     
       '%s changed the clone name of this repository from "%s" to "%s".' => '%s がこのレポジトリのクローン名を "%s" から "%s" に変更した.',
     
@@ -428,6 +434,12 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       '%s examined the secret plaintext for this credential.' => '%s がこのクレデンシャルの秘密テキストを調べた.',
     
+      '%s mentioned this in %s.' => '%s が %s にて, ここを言及した.',
+    
+      '%s merged %d task(s) %s into %s.' => '%s が %d つのタスク %s を %s にマージした.',
+    
+      '%s merged %d task(s): %s.' => '%s が %d つのタスクをマージした: %s.',
+    
       '%s merged task %s into %s.' => '%s がタスク %s を %s にマージした.',
     
       '%s merged this task into %s.' => '%s がこのタスクを %s にマージした.',
@@ -443,6 +455,18 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       '%s named this column "%s".' => '%s がこのカラム "%s" に名前を付けた.',
     
       '%s named this conpherence "%s".' => '%s がこの Conpherence "%s"  に名前を付けた.',
+    
+      '%s planned changes to %s.' => '%s が %s への変更を予定した.',
+    
+      '%s planned changes to revision %s' => '%s がリビジョン %s への変更を予定した',
+    
+      '%s planned changes to revision %s %s' => '%s がリビジョン %s %s への変更を予定した',
+    
+      '%s planned changes to this revision.' => '%s がこのリビジョンの変更を予定した.',
+    
+      '%s pushed %d commit(s) to %s.' => '%s が %d 個のコミットを %s に Push した.',
+    
+      '%s pushed to %s.' => '%s が %s に Push した.',
     
       '%s raised a concern with %s.' => '%s が %s に懸念を表明した.',
     
@@ -528,9 +552,49 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       '%s replaced %s with %s.' => '%s が %s を %s に置き換えた.',
     
+      '%s requested %s' => '%s が %s を要求した',
+    
+      '%s requested a review of revision %s' => '%s がリビジョン %s のレビューを要求した',
+    
+      '%s requested a review of revision %s %s' => '%s がリビジョン %s %s のレビューを要求した',
+    
+      '%s requested a review of this revision.' => '%s がこのリビジョンのレビューを要求した.',
+    
+      '%s requested changes to %s.' => '%s が %s に変更を要求した.',
+    
+      '%s requested changes to revision %s' => '%s がリビジョン %s に変更を要求した',
+    
+      '%s requested changes to revision %s %s' => '%s がリビジョン %s %s に変更を要求した',
+    
+      '%s requested changes to this revision.' => '%s がこのリビジョンに変更を要求した.',
+    
+      '%s requested review of %s.' => '%s が %s のレビューを要求した.',
+    
+      '%s rescinded a token.' => '%s がトークンを剥奪した.',
+    
+      '%s resigned from %s.' => '%s が %s から降りた.',
+    
+      '%s resigned from auditing %s.' => '%s が %s の監査から降りた.',
+    
+      '%s resigned from revision %s' => '%s がリビジョン %s から降りた',
+    
+      '%s resigned from revision %s %s' => '%s がリビジョン %s %s から降りた',
+    
+      '%s resigned from this audit.' => '%s がこの監査から降りた.',
+    
+      '%s resigned from this revision.' => '%s がこのリビジョンから降りた.',
+    
+      '%s restarted this build.' => '%s がこのビルドを再度開始した.',
+    
+      '%s restarted this buildable.' => '%s このビルド品を再度開始した.',
+    
       '%s restored %s.' => '%s が %s を復活させた.',
     
       '%s restored this macro.' => '%s がこのマクロを復活させた.',
+    
+      '%s retitled %s, from "%s" to "%s".' => '%s が %s のタイトルを "%s" から "%s" に変更した.',
+    
+      '%s retitled this revision from "%s" to "%s".' => '%s がこのリビジョンのタイトルを "%s" から "%s" に変更した.',
     
       '%s set %s to %s.' => '%s が %s を %s に設定した.',
     
@@ -557,6 +621,10 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       '%s set this repository to track all branches.' => '%s がこのレポジトリの全てのブランチを追跡対象とした.',
     
       '%s set this repository to track branches: %s.' => '%s がこのレポジトリのブランチを追跡対象とした: %s.',
+    
+      '%s triaged %s as "%s" priority.' => '%s が "%s" の優先度を "%s" に変更した.',
+    
+      '%s triaged this task as "%s" priority.' => '%s がこのタスクの優先度を "%s" に変更した.',
     
       '%s unread messages.' => '%s がメッセージを未読にした.',
     
@@ -622,11 +690,27 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       '%s updated the paste\'s title to "%s".' => '%s がペーストのタイトルを "%s" に更新した.',
     
+      '%s updated the preamble.' => '%s が前文を更新した.',
+    
       '%s updated the repository for %s from %s to %s.' => '%s が レポジトリの %s を %s から %s に更新した.',
     
       '%s updated the secret for this credential.' => '%s がこのクレデンシャルの秘密情報を更新した.',
     
+      '%s updated the status for %s.' => '%s が %s のステータスを更新した.',
+    
+      '%s updated the summary for %s.' => '%s がリビジョン %s のサマリを更新した.',
+    
+      '%s updated the summary for this revision.' => '%s がこのリビジョンのサマリを更新した.',
+    
+      '%s updated the test plan for %s.' => '%s が %s のテストプランを更新した.',
+    
+      '%s updated the test plan for this revision.' => '%s がこのリビジョンのテストプランを更新した.',
+    
+      '%s updated the title for %s.' => '%s が %s のタイトルを更新した.',
+    
       '%s updated their profile' => '%s は彼らのプロフィールを更新した',
+    
+      '%s updated this object.' => '%s がこのオブジェクトを更新した.',
     
       '%s, Until: %s' => '%s, %s まで',
     
@@ -678,12 +762,17 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       '**Choose the pronoun you prefer:**' => '**人称表現の選択:**',
     
-      '**Custom Date and Time Formats**\n\nYou can specify custom formats which will be used when rendering dates and times of day. Examples:\n\n| Format  | Example  | Notes |\n| ------  | -------- | ----- |\n| `g:i A` | 2:34 PM  | Default 12-hour time. |\n| `G.i a` | 02.34 pm | Alternate 12-hour time. |\n| `H:i`   | 14:34    | 24-hour time. |\n\n\nYou can find a [[%s | full reference in the PHP manual]].' => '%24lang-%3E%27%2A%2ACustom+Date+and+Time+Formats%2A%2A%5Cn%5CnYou+can+specify+custom+formats+which+will+be+used+when+rendering+dates+and+times+of+day.+Examples%3A%5Cn%5Cn%7C+Format++%7C+Example++%7C+Notes+%7C%5Cn%7C+------++%7C+--------+%7C+-----+%7C%5Cn%7C+%60g%3Ai+A%60+%7C+2%3A34+PM++%7C+Default+12-hour+time.+%7C%5Cn%7C+%60G.i+a%60+%7C+02.34+pm+%7C+Alternate+12-hour+time.+%7C%5Cn%7C+%60H%3Ai%60+++%7C+14%3A34++++%7C+24-hour+time.+%7C%5Cn%5Cn%5CnYou+can+find+a+%5B%5B%25s+%7C+full+reference+in+the+PHP+manual%5D%5D.%27
-**日付と時間フォーマットの変更**\n\nYou can specify custom formats which will be used when rendering dates and times of day. 例:\n\n| フォーマット  | 例  | 説明 |\n| ------  | -------- | ----- |\n| `g:i A` | 2:34 PM  | 12時間表現. |\n| `G.i a` | 02.34 pm | 12時間表現. |\n| `H:i`   | 14:34    | 24時間表減. |\n\n\n [[%s | PHP マニュアルに完全な解説]] があります.',
+      '**Custom Date and Time Formats**\n\nYou can specify custom formats which will be used when rendering dates and times of day. Examples:\n\n| Format  | Example  | Notes |\n| ------  | -------- | ----- |\n| `g:i A` | 2:34 PM  | Default 12-hour time. |\n| `G.i a` | 02.34 pm | Alternate 12-hour time. |\n| `H:i`   | 14:34    | 24-hour time. |\n\n\nYou can find a [[%s | full reference in the PHP manual]].' => '**Custom Date and Time Formats**\n\nYou can specify custom formats which will be used when rendering dates and times of day. 例:\n\n| フォーマット  | 例  | 説明 |\n| ------  | -------- | ----- |\n| `g:i A` | 2:34 PM  | 12時間表現. |\n| `G.i a` | 02.34 pm | 12時間表現. |\n| `H:i`   | 14:34    | 24時間表減. |\n\n\n [[%s | PHP マニュアルに完全な解説]] があります.',
+    
+      '<<Replace this line with your Revision Title>>' => '<<この行はリビジョンタイトルに書き換えてください>>',
     
       'A mock\'s owner can always view and edit it.' => 'モックの作成者自身は常に閲覧と編集が可能です.',
     
       'ANSWER DETAIL' => '回答の詳細',
+    
+      'Abandon Revision' => 'リビジョンを放棄する',
+    
+      'Abandoned' => '放棄済',
     
       'Above' => '上',
     
@@ -773,7 +862,7 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Activate Repository?' => 'レポジトリを有効化しますか?',
     
-      'Activate this repository to begin or resume import.' => 'このレポジトリを有効化して、インポートを開始 / 続行.',
+      'Activate this repository to begin or resume import.' => 'このレポジトリを有効化して, インポートを開始 / 続行.',
     
       'Activate this repository?' => 'このレポジトリをアクティブにしますか?',
     
@@ -859,7 +948,15 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Add New Address' => '新規にアドレスを追加',
     
-      'Add New Path' => '新規にパスを追加',
+      'Add New Panel' => '新規パネルを追加',
+    
+      'Add New Path' => '新規パスを追加',
+    
+      'Add New Payment Method' => '新規支払方法を追加',
+    
+      'Add New SSH Public Key' => '新しく SSH 公開鍵を追加',
+    
+      'Add New Step' => '新規ステップを追加',
     
       'Add Panel' => 'パネルを追加',
     
@@ -869,11 +966,25 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Add Reviewers' => 'レビュアーを追加',
     
+      'Add Step' => 'ステップを追加',
+    
+      'Add Subscribers' => '購読者を追加',
+    
       'Add a Comment' => 'コメントを追加',
     
       'Add blocking reviewers' => 'レビュアー追加してブロック',
     
       'Add emails to CC' => 'Email を CC に追加する',
+    
+      'Add me as a blocking reviewer' => 'レビュアーとして追加し, ブロック',
+    
+      'Add me as a reviewer' => '自分をレビュアーとして追加',
+    
+      'Add me to CC' => '自分を CC に追加',
+    
+      'Add new simple fields to user profiles.' => 'ユーザプロファイルに単純なフィールドを追加します.',
+    
+      'Add projects' => 'プロジェクトを追加',
     
       'Add reviewers' => 'レビュアー追加',
     
@@ -884,6 +995,10 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       'Added' => '追加',
     
       'Additional Hashtags' => '追加のハッシュタグ',
+    
+      'Address Already Verified' => 'アドレスは既に検証されています',
+    
+      'Address Verified' => 'アドレスが検証されました',
     
       'Adjust Account Settings' => 'アカウント設定の調整',
     
@@ -915,9 +1030,13 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Affects: %s' => '影響範囲: %s',
     
+      'After you copy and paste this token, `arc` will complete the certificate install process for you.' => 'このトークンをコピー・アンド・ペーストで与えた後には,  `arc` コマンドが証明書のインストール手続きを完了します.',
+    
+      'After you download the private key, it will be destroyed. You will not be able to retrieve it if you lose your copy.' => 'あなたがダウンロードした後に, サーバ上の鍵は破壊されます. You will not be able to retrieve it if you lose your copy.',
+    
       'Aged Merlot' => 'とても古い土壁',
     
-      'Agree and Sign Document' => 'ドキュメントに合意し, 署名する',
+      'Agree and Sign Document' => 'ドキュメントに合意し署名する',
     
       'Agreements and Signatures' => '合意と署名',
     
@@ -1069,6 +1188,10 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'An email has been sent with a link you can use to login.' => 'ログイン用のリンクが記された Email が送信されました.',
     
+      'An object name is required.' => 'オブジェクト名は必須項目です.',
+    
+      'Analyze Query Plans' => 'クエリプランを解析',
+    
       'Angel and Devil' => '天使と悪魔',
     
       'Anonymous Password' => '匿名のパスワード',
@@ -1083,14 +1206,17 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Another product already uses this name.' => '他の製品がこの製品名を使用しています.',
     
-      'Another repository already uses that callsign. You must choose a unique callsign.' => '%24lang-%3E%27Another+repository+already+uses+that+callsign.+You+must+choose+a+unique+callsign.%27
-Another repository already uses that callsign. コールサインはユニークではありません.',
+      'Another repository already uses that callsign. You must choose a unique callsign.' => 'そのコールサインは他のレポジトリが使用しています. コールサインはユニークではありません.',
     
       'Another user already has that email.' => '他のユーザがその Email を使用しています.',
     
       'Another user already has that username.' => '他のユーザがそのユーザ名を使用しています.',
     
       'Another user already has this email.' => '他のユーザがこの Email を使用しています.',
+    
+      'Another user made changes to this document after you began editing it. Do you want to overwrite their changes?' => 'あなたが編集作業をしている間に, 別のユーザがこのドキュメントを変更しています. これらの変更を上書きしますか?',
+    
+      'Another verification email was sent to %s.' => 'もう一通, 検証メールが送信されました %s.',
     
       'Answer' => '回答',
     
@@ -1122,6 +1248,16 @@ Another repository already uses that callsign. コールサインはユニーク
     
       'Anyone Can Register an Account' => '誰でもアカウント登録ができる状態です',
     
+      'Aphlict (%s) is running.\n' => 'Aphlict (%s) は実行中です.\n',
+    
+      'Aphlict Server (%s) exited normally.' => 'Aphlict サーバ (%s) が正常終了しました.',
+    
+      'Aphlict Server started.\n' => 'Aphlict サーバが起動しました.\n',
+    
+      'Aphlict is not running.\n' => 'Aphlict は実行中ではありません.\n',
+    
+      'Apple' => 'アップル',
+    
       'Application' => 'アプリケーション',
     
       'Application "%s" is not installed!' => 'アプリケーション "%s" はインストールされていません!',
@@ -1132,9 +1268,23 @@ Another repository already uses that callsign. コールサインはユニーク
     
       'Application Settings' => 'アプリケーション設定',
     
+      'Application configuration class.' => 'アプリケーション設定クラス.',
+    
+      'Application secret is required.' => 'アプリケーションシークレットが必要です.',
+    
       'Applications' => 'アプリケーション',
     
       'Applies To' => '適用する対象',
+    
+      'Apply Filter' => 'フィルタ適用',
+    
+      'Apply Patch' => 'パッチ適用',
+    
+      'Apply Remaining Actions' => '残りのアクションを適用',
+    
+      'Apply remaining actions?' => '残りのアクションを適用しますか?',
+    
+      'Applying plan %s to new buildable %s...' => 'プラン %s をビルド可能物 %s に適用しています...',
     
       'Approval (Multiple Choice)' => '承認/支持 (複数選択式)',
     
@@ -1160,8 +1310,7 @@ Another repository already uses that callsign. コールサインはユニーク
     
       'Are you sure you want to close the poll?' => 'この投票を閉じてよろしいですか?',
     
-      'Are you sure you want to delete the "%s" package? This operation can not be undone.' => '%24lang-%3E%27Are+you+sure+you+want+to+delete+the+%22%25s%22+package%3F+This+operation+can+not+be+undone.%27
-Are you sure you want to delete the "%s" package?この処理は元に戻すことはできません.',
+      'Are you sure you want to delete the "%s" package? This operation can not be undone.' => 'Are you sure you want to delete the "%s" package?この処理は元に戻すことはできません.',
     
       'Are you sure you want to delete the countdown %s?' => '本当にカウントダウン %s を削除しますか?',
     
@@ -1276,6 +1425,10 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Autoclose?' => '自動クローズにしますか?',
     
+      'Automatic diff as part of commit; lint not applicable.' => 'コミットの一部としての自動 Diff; Lint は適用されません.',
+    
+      'Automatic diff as part of commit; unit tests not applicable.' => 'コミットの一部としての自動 Diff; Unit は適用されません.',
+    
       'Automatically Subscribed' => '自動的に購読済',
     
       'Automatically push changes into other remotes.' => '変更をリモートに自動 Push できます.',
@@ -1306,6 +1459,24 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Backlog' => 'バックログ',
     
+      'Bacon Ice Cream for Breakfast' => '朝食用ベーコンアイスクリーム',
+    
+      'Bad Address' => '不良アドレス',
+    
+      'Bad Commit' => '不良コミット',
+    
+      'Bad Input Type' => '不良入力タイプ',
+    
+      'Bad Key' => '不良の鍵',
+    
+      'Bad Object' => '不良オブジェクト',
+    
+      'Bad Value Type' => '不良の値タイプ',
+    
+      'Bad build target ID "%d".' => '不良のビルドターゲット ID "%d".',
+    
+      'Banana' => 'バナナ',
+    
       'Base URI Not Configured' => 'ベース URI が設定されていません',
     
       'Basic Example' => '基本設定例',
@@ -1324,7 +1495,7 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Below' => '下',
     
-      'Best Available Algorithm' => '利用可能な 最前のアルゴリズム',
+      'Best Available Algorithm' => '利用できる最善アルゴリズム',
     
       'Bird Stencil' => '鳥の型抜き',
     
@@ -1404,9 +1575,19 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Bulleted List' => '箇条書きリスト',
     
+      'Burnup' => 'バーンアップ',
+    
+      'Burnup Rate' => 'バーンアップ率',
+    
+      'Business Card' => '名詞',
+    
       'Business Meeting' => 'ビジネスミーティング',
     
-      'By default, no one can take this action.' => 'デフォルトの状態では、誰もアクションの実行ができません.',
+      'By Project' => 'プロジェクトごと',
+    
+      'By User' => 'ユーザごと',
+    
+      'By default, no one can take this action.' => 'デフォルトの状態では, 誰もアクションの実行ができません.',
     
       'CAUTION: Dangerous Chemicals' => '注意: 危険な化学薬品',
     
@@ -1558,7 +1739,15 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Changes saved.' => '変更が保存されました.',
     
+      'Charset' => '文字セット',
+    
+      'Chart' => 'チャート',
+    
       'Chart and Analyze Data' => 'データのグラフ化と分析',
+    
+      'ChatLog' => 'チャットログ',
+    
+      'Check Your Email' => 'Email を確認してください',
     
       'Checkered' => 'チェック柄',
     
@@ -1598,7 +1787,7 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Choose a type of build step to add:' => '追加するビルドステップのタイプを選択:',
     
-      'Choose an application to pin to your home page.' => 'ピン留めをすると、アプリケーションはホームページに常に表示されます.',
+      'Choose an application to pin to your home page.' => 'ピン留めをすると, アプリケーションはホームページに常に表示されます.',
     
       'Choose where to install this dashboard.' => 'このダッシュボードをインストールする先を選択してください.',
     
@@ -1612,9 +1801,9 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Classes must match to compare schemata!' => 'クラスは, スキーマと対象付けされていなければなりません!',
     
-      'Clear Selection' => '選択を解除',
+      'Clear Selection' => '選択解除',
     
-      'Clear sailing ahead.' => '前方の視界よし.',
+      'Clear sailing ahead.' => '前方視界よし.',
     
       'Clone (HTTP)' => 'Clone (HTTP 経由)',
     
@@ -1650,7 +1839,15 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Closed Default' => 'デフォルトクローズ',
     
+      'Closed after %s' => '%s 後にクローズ',
+    
       'Closed by author' => '作成者によってクローズ',
+    
+      'Closed by commit %s (authored by %s).' => 'コミット %s によってクローズ (作成者 %s).',
+    
+      'Closed by commit %s (authored by %s, committed by %s).' => 'コミット %s によってクローズ (作成者 %s, コミッタ %s).',
+    
+      'Closed by commit %s.' => 'コミット %s によってクロース.',
     
       'Closed, Duplicate' => 'クローズ, 重複',
     
@@ -1662,14 +1859,15 @@ Are you sure you want to delete the "%s" package?この処理は元に戻すこ�
     
       'Closed, Wontfix' => 'クローズ, 修正されない',
     
-      'Closing a resource releases all leases and destroys the resource. It can not be undone. Continue?' => '%24lang-%3E%27Closing+a+resource+releases+all+leases+and+destroys+the+resource.+It+can+not+be+undone.+Continue%3F%27
-Closing a resource releases all leases and destroys the resource. 元に戻すことはできません. 続けますか?',
+      'Closing a resource releases all leases and destroys the resource. It can not be undone. Continue?' => 'Closing a resource releases all leases and destroys the resource. 元に戻すことはできません. 続けますか?',
     
       'Code' => 'コード',
     
       'Code Block' => 'コードブロック',
     
       'Collapse File' => 'ファイルのインライン表示を畳む',
+    
+      'Collation' => '照合順序',
     
       'Color' => '色',
     
@@ -1691,11 +1889,15 @@ Closing a resource releases all leases and destroys the resource. 元に戻す�
     
       'Columns' => 'カラム',
     
+      'Commandeer Revision' => 'リビジョンを奪い取る',
+    
+      'Commandeered' => '奪取済',
+    
       'Comment' => 'コメント',
     
       'Comment Actions' => 'アクションにコメント',
     
-      'Comment History' => '履歴にコメント',
+      'Comment History' => 'コメント履歴',
     
       'Commented' => 'コメント済',
     
@@ -1849,11 +2051,9 @@ Closing a resource releases all leases and destroys the resource. 元に戻す�
     
       'Configure mailer used by PHPMailer.' => 'PHPMailer が利用するメーラー設定.',
     
-      'Configure more options before beginning the repository import. This will let you fine-tune settings. You can start the import whenever you are ready.' => '%24lang-%3E%27Configure+more+options+before+beginning+the+repository+import.+This+will+let+you+fine-tune+settings.+You+can+start+the+import+whenever+you+are+ready.%27
-Configure more options before beginning the repository import. これにより, 細かな微調整ができるでしょう. You can start the import whenever you are ready.',
+      'Configure more options before beginning the repository import. This will let you fine-tune settings. You can start the import whenever you are ready.' => 'Configure more options before beginning the repository import. これにより, 細かな微調整ができるでしょう. You can start the import whenever you are ready.',
     
-      'Configure more options before creating the repository. This will let you fine-tune settings. You can create the repository whenever you are ready.' => '%24lang-%3E%27Configure+more+options+before+creating+the+repository.+This+will+let+you+fine-tune+settings.+You+can+create+the+repository+whenever+you+are+ready.%27
-Configure more options before creating the repository. これにより, 細かな微調整ができるでしょう. 準備ができ次第レポジトリの作成が可能です.',
+      'Configure more options before creating the repository. This will let you fine-tune settings. You can create the repository whenever you are ready.' => 'Configure more options before creating the repository. これにより, 細かな微調整ができるでしょう. 準備ができ次第レポジトリの作成が可能です.',
     
       'Configure real-time notifications.' => 'リアルタイム通知の設定.',
     
@@ -1899,7 +2099,19 @@ Configure more options before creating the repository. これにより, 細か�
     
       'Continue' => '続ける',
     
+      'Continue Build Normally' => '通常通りビルドを続ける',
+    
+      'Continue Checkout' => 'チェックアウトを続ける',
+    
+      'Continue to Application' => '続けてアプリケーションに入る',
+    
+      'Continue to Phabricator' => '続けて Phabricator に入る',
+    
+      'Continue to generate a new link to the file. You may be required to log in.' => 'Continue to generate a new link to the file. ログインが必要になります.',
+    
       'Continue \302\273' => '続ける \302\273',
+    
+      'Contributors' => '貢献者リスト',
     
       'Copied to %s' => '%s にコピー済',
     
@@ -1911,7 +2123,11 @@ Configure more options before creating the repository. これにより, 細か�
     
       'Copy Panel?' => 'パネルをコピーしますか?',
     
+      'Copy and paste this token into the prompt given to you by `arc install-certificate`' => 'このトークンを `arc install-certificate` コマンドで入力を求められたときに コピー・アンド・ペーストしてください.',
+    
       'Core Applications' => 'コア・アプリケーション',
+    
+      'Corporations' => '法人',
     
       'Costumed Egg' => 'コスプレ卵',
     
@@ -1922,6 +2138,10 @@ Configure more options before creating the repository. これにより, 細か�
       'Countdown to Events' => 'イベントまでのカウントダウン',
     
       'Countdowns' => 'カウントダウン',
+    
+      'Coverage (All)' => 'カバレッジ (全て)',
+    
+      'Coverage (Touched)' => 'カバレッジ (カバー)',
     
       'Create' => '作成',
     
@@ -2073,7 +2293,19 @@ Configure more options before creating the repository. これにより, 細か�
     
       'Create a New Project' => '新規にプロジェクトを作成',
     
+      'Create a bot/script user account, to automate interactions with other systems. These users can not use the web interface, but can use the API.' => '他のシステムとの自動連携のためにボット/スクリプトユーザアカウントを作成します. These users can not use the web interface, but can use the API.',
+    
       'Create a copy of the dashboard "%s"?' => 'このダッシュボード "%s" のコピーを作成しますか?',
+    
+      'Create a dependency between revisions by writing "Depends on D123" in your summary.' => 'サマリ内に "Depends on D123" と書くことで, リビジョン間の依存関係を作成できます .',
+    
+      'Create a new "%s" source.' => '新規ソース "%s" を作成.',
+    
+      'Create a new Differential diff from a raw diff source.' => 'Raw Diff ソースから新規 Differential リビジョンを作成.',
+    
+      'Create a new Differential revision.' => '新規 Differential リビジョンを作成.',
+    
+      'Create a new Revision...' => '新規リビジョンを作成...',
     
       'Create a new board with just a backlog column.' => 'バックログ用のカラムのみの新しいボードを作成します.',
     
@@ -2180,6 +2412,12 @@ Configure more options before creating the repository. これにより, 細か�
       'DIFFERENTIAL REVISION' => 'DIFFERENTIAL リビジョン',
     
       'Daemon Class' => 'デーモンクラス',
+    
+      'Daemon Console' => 'デーモンコンソール',
+    
+      'Daemon Log' => 'デーモン Log',
+    
+      'Daemons' => 'デーモン',
     
       'Daemons Not Running' => 'デーモンプロセス が走っていません',
     
@@ -2347,8 +2585,6 @@ Configure more options before creating the repository. これにより, 細か�
     
       'Differential Diffs' => 'Differential Diff',
     
-      'Differential Revision' => 'Differential リビジョン',
-    
       'Differential Revisions' => 'Differential リビジョン',
     
       'Differential reviewers' => 'Differential レビュアー',
@@ -2363,8 +2599,7 @@ Configure more options before creating the repository. これにより, 細か�
     
       'Disable "Re:" prefix' => '先頭文字 "Re:" の追加を無効化',
     
-      'Disable %s? They will no longer be able to access Phabricator or receive email.' => '%24lang-%3E%27Disable+%25s%3F+They+will+no+longer+be+able+to+access+Phabricator+or+receive+email.%27
-Disable %s?Email の受け取りや、 Phabricator へのアクセスができなくなります.',
+      'Disable %s? They will no longer be able to access Phabricator or receive email.' => 'Disable %s?Email の受け取りや, Phabricator へのアクセスができなくなります.',
     
       'Disable Autoclose' => '自動クローズを無効化',
     
@@ -2426,6 +2661,10 @@ Disable %s?Email の受け取りや、 Phabricator へのアクセスができ�
     
       'Do nothing' => '何もしない',
     
+      'Document' => 'ドキュメント',
+    
+      'Document Body' => 'ドキュメント本文',
+    
       'Document Preview' => 'ドキュメントのプレビュー',
     
       'Document Status' => 'ドキュメントステータス',
@@ -2434,7 +2673,11 @@ Disable %s?Email の受け取りや、 Phabricator へのアクセスができ�
     
       'Documentation' => 'ドキュメント',
     
+      'Documentation Not Found' => 'ドキュメントが見つかりません',
+    
       'Documents' => 'ドキュメント',
+    
+      'Does Not Match' => '不一致',
     
       'Domain' => 'ドメイン',
     
@@ -2844,7 +3087,7 @@ Disable %s?Email の受け取りや、 Phabricator へのアクセスができ�
     
       'Enter Deliberations' => '審議に入る',
     
-      'Enter the URI to clone this Git repository from. It should usually look like one of these examples:\n\n| Example Git Remote URIs |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n' => 'この git レポジトリのクローン元となる URI を入力してください. 下の様な形の URI が使用できます:\n\n| Git Remote URI の例 |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n',
+      'Enter the URI to clone this Git repository from. It should usually look like one of these examples:\n\n| Example Git Remote URIs |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n' => 'Enter the URI to clone this Git repository from. 下の様な形の URI が使用できます:\n\n| Git Remote URI の例 |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n',
     
       'Enter value as JSON.' => '値はJSON形式で入力してください.',
     
@@ -2890,12 +3133,11 @@ Disable %s?Email の受け取りや、 Phabricator へのアクセスができ�
     
       'Explore Phabricator' => 'Phabricatorを探索',
     
-      'Export Tasks to Excel' => 'タスクをエクセル形式で出力',
+      'Export Tasks to Excel' => 'Excel 形式出力',
     
       'Export to Excel' => 'エクセル形式で出力',
     
-      'Expression "%s" is not a valid regular expression. Note that you must include delimiters.' => '%24lang-%3E%27Expression+%22%25s%22+is+not+a+valid+regular+expression.+Note+that+you+must+include+delimiters.%27
-Expression "%s" is not a valid regular expression. 区切り文字を忘れないようにしてください.',
+      'Expression "%s" is not a valid regular expression. Note that you must include delimiters.' => 'Expression "%s" is not a valid regular expression. 区切り文字を忘れないようにしてください.',
     
       'Extending Phabricator' => 'Phabricator 拡張',
     
@@ -2941,7 +3183,7 @@ Expression "%s" is not a valid regular expression. 区切り文字を忘れな�
     
       'File Artifact' => 'ファイル アーティファクト',
     
-      'File Contents' => 'ファイル コンテント',
+      'File Contents' => 'ファイル内容',
     
       'File ID' => 'ファイル ID',
     
@@ -2983,17 +3225,21 @@ Expression "%s" is not a valid regular expression. 区切り文字を忘れな�
     
       'Flagged' => 'フラグ付',
     
-      'Flagged by Herald Rule "%s".' => 'Herald Rule "%s" によりフラグが立てられました.',
+      'Flagged by Herald Rule "%s".' => 'ヘラルドルール "%s" によりフラグが立てられました.',
     
       'Flags' => 'フラグ',
     
-      'Flags are private. Only you can view or edit your flags.' => 'フラグはプライベートです. Only you can view or edit your flags.',
+      'Flags are private. Only you can view or edit your flags.' => 'フラグはプライベートです. あなたのフラグは, あなた自身のみが閲覧・編集で来ます.',
     
       'Focus' => '集中する',
     
       'Folder' => 'フォルダ',
     
       'Foreign Interface' => '見慣れないインターフェイス',
+    
+      'Forgot Password' => 'パスワードの紛失',
+    
+      'Forgot Password / Email Login' => 'パスワードの紛失 / Email 経由ログイン',
     
       'Forgot your password?' => 'パスワードを忘れましたか?',
     
@@ -3009,11 +3255,9 @@ Expression "%s" is not a valid regular expression. 区切り文字を忘れな�
     
       'Format for inlined or attached patches: \'git\' or \'unified\'.' => 'インライン・パッチ用ファイルのフォーマット: \'git\' または \'unified\'.',
     
-      'Format for the HTTP access log. Use {{log.access.path}} to set the path. Available variables are:' => '%24lang-%3E%27Format+for+the+HTTP+access+log.+Use+%7B%7Blog.access.path%7D%7D+to+set+the+path.+Available+variables+are%3A%27
-Format for the HTTP access log. Use {{log.access.path}} to set the path. 利用可能な変数は:',
+      'Format for the HTTP access log. Use {{log.access.path}} to set the path. Available variables are:' => 'Format for the HTTP access log. Use {{log.access.path}} to set the path. 利用可能な変数は:',
     
-      'Format for the SSH access log. Use {{log.ssh.path}} to set the path. Available variables are:' => '%24lang-%3E%27Format+for+the+SSH+access+log.+Use+%7B%7Blog.ssh.path%7D%7D+to+set+the+path.+Available+variables+are%3A%27
-Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可能な変数は:',
+      'Format for the SSH access log. Use {{log.ssh.path}} to set the path. Available variables are:' => 'Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可能な変数は:',
     
       'Format used when rendering a time of day.' => '時間の表示に使用されるフォーマットです.',
     
@@ -3087,13 +3331,15 @@ Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可�
     
       'Generating book "%s"...' => 'ブック "%s" を生成...',
     
-      'Get Organized' => 'まとめ上げよう',
+      'Get Organized' => '整理整頓',
     
       'Get Patch' => 'パッチを取得',
     
       'Give Token' => 'トークンを与える',
     
-      'Given by %s on %s' => '%sから貰った, %s',
+      'Give or change a token.' => 'トークンと与える, または変更する.',
+    
+      'Given by %s on %s' => '%s から貰った, %s',
     
       'Global' => 'グローバル',
     
@@ -3125,6 +3371,10 @@ Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可�
     
       'Haunted' => '妖怪',
     
+      'Having trouble coming up with a good password? Try this artisinal password, hand made in small batches by our expert craftspeople: \n\n`%s`' => '良いパスワードが思いつかなくてお困りですか?以下の工芸的パスワードはどうですか, 我々が選んだ熟練職人によって丁寧に仕上げられたものです: \n\n`%s`',
+    
+      'Having trouble coming up with a good password? Try this randomly generated one, made by a computer:\n\n`%s`' => '良いパスワードが思いつかなくてお困りですか?Try this randomly generated one, made by a computer:\n\n`%s`',
+    
       'Haypence' => '½ ペニー貨',
     
       'Healthy Bone Juice' => '健康的な骨汁',
@@ -3149,6 +3399,24 @@ Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可�
     
       'Help/Options' => 'ヘルプ / オプション',
     
+      'Herald' => 'ヘラルド',
+    
+      'Herald Rule' => 'ヘラルドルール',
+    
+      'Herald Rules' => 'ヘラルドルール',
+    
+      'Herald Test Console' => 'ヘラルドテストこんソース',
+    
+      'Herald Transcripts' => 'ヘラルド Transcripts',
+    
+      'Herald rules will not trigger until import completes.' => 'インポートが完了するまでヘラルドルールが発動することはありません.',
+    
+      'Herald rules will not trigger until tracking is enabled.' => 'トラッキングが有効になるまでヘラルドルールが発動することはありません.',
+    
+      'Hidden' => '隠されています',
+    
+      'Hide %d Lint Message(s)' => '%d 個の Lint メッセージを隠す',
+    
       'Hide Column' => 'カラムを隠す',
     
       'Hide Copies/Branches' => 'コピー / ブランチ を隠す',
@@ -3161,7 +3429,11 @@ Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可�
     
       'High' => '高',
     
+      'High security mode helps protect your account from security threats, like session theft or someone messing with your stuff while you\'re grabbing a coffee. To enter high security mode, confirm your credentials.' => 'High security mode helps protect your account from security threats, like session theft or someone messing with your stuff while you\'re grabbing a coffee. 高セキュリティモードに入るために, クレデンシャルの確認を行ってください.',
+    
       'High-Volume Task Queues' => '大容量タスクキュー',
+    
+      'Highlight *.xyz as PHP.' => '*.xyz を PHP としてハイライトする.',
     
       'Highlight As...' => '構文ハイライトを変更...',
     
@@ -3203,7 +3475,7 @@ Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可�
     
       'Hosted Repositories' => 'ローカルでレポジトリをホストする',
     
-      'Hosted and Remote Repositories' => 'ローカルと、リモートでレポジトリはホストされる',
+      'Hosted and Remote Repositories' => 'ローカルと, リモートでレポジトリはホストされる',
     
       'Hosted on Phabricator' => 'Phabricator でホスト中',
     
@@ -3212,6 +3484,8 @@ Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可�
       'Hours' => '時',
     
       'Human-readable repository name.' => '人間のための読みやすい名前.',
+    
+      'I agree to the terms laid forth above.' => '私は上記に定める条項に同意します.',
     
       'IRC Logs' => 'IRC ログ',
     
@@ -3225,10 +3499,9 @@ Format for the SSH access log. Use {{log.ssh.path}} to set the path. 利用可�
     
       'If no rules match, %s all other users.' => 'もしルールに合致するものがなければ, すべてのユーザを %s ',
     
-      'If the process which owns the task lease is still doing work on it, the work may be performed twice. Are you sure you want to free the lease?' => 'もし, リースを投げたプロセスが処理終了を待っているのであれば, 処理はもう一度実行されることになるかもしれません. それでもリースを開放しますか?',
+      'If the process which owns the task lease is still doing work on it, the work may be performed twice. Are you sure you want to free the lease?' => 'If the process which owns the task lease is still doing work on it, the work may be performed twice. それでもリースを開放しますか?',
     
-      'If you have **Autoclose** enabled for this repository, Phabricator can close tasks and revisions when corresponding commits are pushed to the repository. If you want to autoclose objects only when commits appear on specific branches, you can list those branches in **Autoclose Only**. By default, all tracked branches will autoclose objects.' => '%24lang-%3E%27If+you+have+%2A%2AAutoclose%2A%2A+enabled+for+this+repository%2C+Phabricator+can+close+tasks+and+revisions+when+corresponding+commits+are+pushed+to+the+repository.+If+you+want+to+autoclose+objects+only+when+commits+appear+on+specific+branches%2C+you+can+list+those+branches+in+%2A%2AAutoclose+Only%2A%2A.+By+default%2C+all+tracked+branches+will+autoclose+objects.%27
-If you have **Autoclose** enabled for this repository, Phabricator can close tasks and revisions when corresponding commits are pushed to the repository. ある特定のブランチにコミットが出現したとき, オブジェクトを自動クローズとしたい場合は, 以下の **自動クローズのみ** にそれらのブランチをリストで与えてください. デフォルトの状態では, 追跡中のブランチはオブジェクトを自動クローズします.',
+      'If you have **Autoclose** enabled for this repository, Phabricator can close tasks and revisions when corresponding commits are pushed to the repository. If you want to autoclose objects only when commits appear on specific branches, you can list those branches in **Autoclose Only**. By default, all tracked branches will autoclose objects.' => 'If you have **Autoclose** enabled for this repository, Phabricator can close tasks and revisions when corresponding commits are pushed to the repository. ある特定のブランチにコミットが出現したとき, オブジェクトを自動クローズとしたい場合は, 以下の **自動クローズのみ** にそれらのブランチをリストで与えてください. デフォルトの状態では, 追跡中のブランチはオブジェクトを自動クローズします.',
     
       'Ignore' => '無視する',
     
@@ -3262,13 +3535,13 @@ If you have **Autoclose** enabled for this repository, Phabricator can close tas
     
       'Import a Git repository (for example, a repository hosted on GitHub).' => 'Git レポジトリをインポート ( GitHub にホストされたレポジトリも含みます ).',
     
-      'Import a Mercurial repository (for example, a repository hosted on Bitbucket).' => 'Mercurial レポジトリをインポート ( Bitbucket にホストされたレポジトリも含みます ).',
-    
       'Import a Subversion repository.' => 'Subversion レポジトリをインポート.',
     
       'Import an Existing External Repository' => '外部レポジトリをインポートする',
     
       'Import board columns from another project.' => '別のプロジェクトからカラムのインポートを行います.',
+    
+      'Importing' => 'インポート中',
     
       'Importing...' => 'インポート中...',
     
@@ -3276,11 +3549,13 @@ If you have **Autoclose** enabled for this repository, Phabricator can close tas
     
       'In Any Project' => 'プロジェクトにある',
     
+      'In Git and Mercurial, use a branch like "T123" to automatically associate changes with the corresponding task.' => 'Git や Mercurial 利用時には "T123" のようにブランチを命名することで, 自動的に対応するタスクに変更を紐付けることができます.',
+    
       'In Users\' Projects' => 'ユーザのプロジェクト',
     
-      'In page titles, show Tool names as plain text: [Differential]' => 'ページタイトルのツールを、プレーンテキストで表示: [Differential]',
+      'In page titles, show Tool names as plain text: [Differential]' => 'ページタイトルのツールを, プレーンテキストで表示: [Differential]',
     
-      'In page titles, show Tool names as unicode glyphs: \342\232\231' => 'ページタイトルのツールを、ユニコードアイコンで表示: \342\232\231',
+      'In page titles, show Tool names as unicode glyphs: \342\232\231' => 'ページタイトルのツールを, ユニコードアイコンで表示: \342\232\231',
     
       'Inactive' => '非アクティブ',
     
@@ -3299,6 +3574,8 @@ If you have **Autoclose** enabled for this repository, Phabricator can close tas
       'Index' => '目次',
     
       'Indigo' => 'インディゴ',
+    
+      'Individuals' => '個人',
     
       'Initialization Error' => '初期化エラー',
     
@@ -3335,6 +3612,12 @@ If you have **Autoclose** enabled for this repository, Phabricator can close tas
       'Interface' => 'インターフェイス',
     
       'Invalid' => '不適切',
+    
+      'Invalid credentials.' => '無効なクレデンシャル.',
+    
+      'Invalid or incorrect credit card number.' => '無効な もしくは 未入力のクレジットカード番号.',
+    
+      'Invalid or missing field "%s": %s' => '無効な もしくは 未入力のフィールド "%s": %s',
     
       'Is newly created?' => '新規に作られたか?',
     
@@ -3408,10 +3691,11 @@ If you have **Autoclose** enabled for this repository, Phabricator can close tas
     
       'Launch daemons in \'trace\' mode by default.' => 'デーモン起動時には \'トレース出力 (trace)\' をデフォルトとする.',
     
-      'Launch daemons in \'trace\' mode by default. This creates an ENORMOUS amount of output, but can help debug issues. Daemons launched in debug mode with \'phd debug\' are always launched in trace mdoe. See also \'phd.verbose\'.' => '%24lang-%3E%27Launch+daemons+in+%5C%27trace%5C%27+mode+by+default.+This+creates+an+ENORMOUS+amount+of+output%2C+but+can+help+debug+issues.+Daemons+launched+in+debug+mode+with+%5C%27phd+debug%5C%27+are+always+launched+in+trace+mdoe.+See+also+%5C%27phd.verbose%5C%27.%27
-Launch daemons in \'trace\' mode by default. これにより, 信じられないほど大量の出力が生成されることになりますが, 問題をデバッグする助けにはなるでしょう.  \'phd debug\'によりデバッグモードで起動されたデーモンプロセスは、トレースモードで起動されることになります. \'phd.verbose\' 設定も確認してください.',
+      'Launch daemons in \'trace\' mode by default. This creates an ENORMOUS amount of output, but can help debug issues. Daemons launched in debug mode with \'phd debug\' are always launched in trace mdoe. See also \'phd.verbose\'.' => 'デーモン起動時には \'トレース出力 (trace)\' をデフォルトとする. これにより, 信じられないほど大量の出力が生成されることになりますが, 問題をデバッグする助けにはなるでしょう.  \'phd debug\'によりデバッグモードで起動されたデーモンプロセスは, トレースモードで起動されることになります. \'phd.verbose\' 設定も確認してください.',
     
       'Launch daemons in \'verbose\' mode by default.' => 'デーモン起動時には \'冗長出力 (verbose)\' をデフォルトとする.',
+    
+      'Launch daemons in \'verbose\' mode by default. This creates a lot of output, but can help debug issues. Daemons launched in debug mode with \'phd debug\' are always launched in verbose mode. See also \'phd.trace\'.' => 'デーモン起動時には \'冗長出力 (verbose)\' をデフォルトとする. This creates a lot of output, but can help debug issues. Daemons launched in debug mode with \'phd debug\' are always launched in verbose mode. See also \'phd.trace\'.',
     
       'Launchable' => 'ランチ可能',
     
@@ -3421,7 +3705,13 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
     
       'Leader Board' => 'リーダボード',
     
+      'Leap Into Action' => 'さっさと手を付ける',
+    
       'Learn More' => 'もっと知る',
+    
+      'Lease %d' => 'リース %d',
+    
+      'Lease Expired' => 'リース期限切れ',
     
       'Lease Expires' => 'リース期限',
     
@@ -3435,9 +3725,13 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
     
       'Leased' => 'リース済',
     
+      'Leased Host' => 'リースされたホスト',
+    
       'Leased Tasks' => 'リースされたタスク',
     
       'Leases' => 'リース',
+    
+      'Leave High Security' => '高セキュリティから離れる',
     
       'Leave Project' => 'プロジェクトを離れる',
     
@@ -3465,13 +3759,15 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
     
       'Linked Accounts and Authentication' => 'リンクされたアカウント及び認証',
     
+      'Lint' => 'Lint チェック',
+    
       'Lint Commit' => 'Lint コミット',
     
       'Lint Errors' => 'Lint エラー',
     
-      'Lint Postponed' => 'Lint 延期済',
+      'Lint Postponed' => 'Lint 延期',
     
-      'Lint Skipped' => 'Lint スキップ済',
+      'Lint Skipped' => 'Lint スキップ',
     
       'Lint Warnings' => 'Lint 警告',
     
@@ -3483,9 +3779,23 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
     
       'Load Older Threads' => '古いスレッドを読み込む',
     
+      'Loading Preview...' => 'プレビューを読込中...',
+    
+      'Loading comment preview...' => 'コメントプレビューを読込中...',
+    
+      'Loading preview...' => 'プレビューを読込中...',
+    
+      'Loading...' => '読込中...',
+    
       'Local' => 'ローカル',
     
-      'Local Config' => 'ローカル Config',
+      'Local Commits' => 'ローカルコミット',
+    
+      'Local Config' => 'ローカル設定',
+    
+      'Local Disk Storage' => 'ローカルの保存用ディスク',
+    
+      'Local Disk Storage Not Readable/Writable' => 'ローカルの保存用ディスクが 読込可能/書込可能 ではありません',
     
       'Local Maniphest URL' => 'ローカル Maniphest URL',
     
@@ -3533,7 +3843,7 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
     
       'Login to Comment' => 'ログインしてコメントする',
     
-      'Login to Phabricator' => 'Phabricator ログイン',
+      'Login to Phabricator' => 'Phabricator にログイン',
     
       'Login with LDAP' => 'LDAP を利用してログイン',
     
@@ -3574,8 +3884,6 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
       'Macro %s: %s %s' => 'マクロ %s: %s %s',
     
       'Macro Disabled' => 'マクロ無効',
-    
-      'Macro must be at least three characters long and contain only lowercase letters, digits, hyphens, colons and underscores.' => 'マクロは最小が3文字で, 英数小文字/ハイフン/コロン/下線 のみが含められます.',
     
       'Macro name is not unique!' => 'マクロ名が重複しています!',
     
@@ -3625,6 +3933,20 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
     
       'Mark All Read' => 'すべて既読とする',
     
+      'Mark as Pulled' => 'Pull 済とする',
+    
+      'Mark as Reverted' => 'リバート済とする',
+    
+      'Mark with flag' => 'フラグをたてる',
+    
+      'Marked with Flag' => 'フラグでマーク済',
+    
+      'Marking repository \'%s\' as imported.' => 'レポジトリ \'%s\' をインポート済としています.',
+    
+      'Marking repository \'%s\' as importing.' => 'レポジトリ \'%s\' をインポート中としています.',
+    
+      'Masked' => 'マスク済',
+    
       'Maximum Retries' => '試行回数の最大数',
     
       'Maximum number of points of tasks allowed in the column.' => 'このタスク内の最大ポイント数です.',
@@ -3652,6 +3974,8 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
       'Message: %s' => 'メッセージ: %s',
     
       'Messages' => 'メッセージ',
+    
+      'Minimum length of %d characters.' => '最低 %d 文字以上の長さ.',
     
       'Minimum password length.' => 'パスワード長の下限.',
     
@@ -3719,6 +4043,8 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
     
       'Monospaced Textareas' => '固定幅フォント テキストエリア',
     
+      'Month To Date' => '過去1カ月間',
+    
       'More...' => 'もっと見る...',
     
       'Most Recent Change' => '最近の変更',
@@ -3767,13 +4093,11 @@ Launch daemons in \'trace\' mode by default. これにより, 信じられない
     
       'MySQL is Using Default Stopword File' => 'MySQL が, デフォルトの Stopword ファイルを使用しています',
     
-      'MySQL is configured to only index words with at least %d characters.' => 'MySQL が、%d 字以上の単語のみがインデックス対象になるよう設定されています.',
+      'MySQL is configured to only index words with at least %d characters.' => 'MySQL が, %d 字以上の単語のみがインデックス対象になるよう設定されています.',
     
-      'NOTE: The configuration setting [[ %s | %s ]] is currently disabled. You must enable it to activate authenticated access to repositories over HTTP.' => '%24lang-%3E%27NOTE%3A+The+configuration+setting+%5B%5B+%25s+%7C+%25s+%5D%5D+is+currently+disabled.+You+must+enable+it+to+activate+authenticated+access+to+repositories+over+HTTP.%27
-NOTE: The configuration setting [[ %s | %s ]] is currently disabled. HTTP 経由のレポジトリ利用では、認証付のアクセスが有効にされていなければなりません.',
+      'NOTE: The configuration setting [[ %s | %s ]] is currently disabled. You must enable it to activate authenticated access to repositories over HTTP.' => 'NOTE: The configuration setting [[ %s | %s ]] is currently disabled. HTTP 経由のレポジトリ利用では, 認証付のアクセスが有効にされていなければなりません.',
     
-      'NOTE: This provider **only supports JIRA 6**. It will not work with JIRA 5 or earlier.' => '%24lang-%3E%27NOTE%3A+This+provider+%2A%2Aonly+supports+JIRA+6%2A%2A.+It+will+not+work+with+JIRA+5+or+earlier.%27
-NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンでは正常動作を保証しません.',
+      'NOTE: This provider **only supports JIRA 6**. It will not work with JIRA 5 or earlier.' => 'NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンでは正常動作を保証しません.',
     
       'Name' => '名称',
     
@@ -3863,7 +4187,7 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
     
       'New Rule' => '新規ルール',
     
-      'New Rule for' => '新規ルール for',
+      'New Rule for' => '新規ルールの対象',
     
       'New Simple Dashboard' => '新規シンプルダッシュボード',
     
@@ -3890,6 +4214,10 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
       'New username is required.' => '新しいユーザ名が必須です.',
     
       'New username must be different from old username.' => '新しいユーザ名は, 古いユーザ名と異なっていなければなりません.',
+    
+      'Next Step' => '次のステップ',
+    
+      'Next Steps' => '次のステップ',
     
       'No Account Linked' => 'アカウントはリンクされていません',
     
@@ -3919,7 +4247,11 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
     
       'No Events Scheduled.' => 'イベントの予定はありません.',
     
+      'No Herald Hints' => 'ヘラルドヒントはありません',
+    
       'No Limit' => '制限なし',
+    
+      'No Linters Available' => 'Lint チェッカがありません',
     
       'No Match' => 'マッチがありません',
     
@@ -3932,6 +4264,8 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
       'No OAuth Access Token' => 'OAuth アクセストークンはありません',
     
       'No One' => '誰もいない',
+    
+      'No Password Set' => 'パスワードは未設定',
     
       'No Projects' => 'プロジェクトはありません',
     
@@ -3959,7 +4293,7 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
     
       'No Tags' => 'タグはありません',
     
-      'No Unit Test Coverage' => 'Unit テストカバレージがありません',
+      'No Unit Test Coverage' => 'Unit テストカバレッジがありません',
     
       'No Valid Phortune Merchant Accounts' => '有効な Phortune 商人アカウントがありません',
     
@@ -3987,6 +4321,10 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
     
       'No daemon(s) with id(s) "%s" exist!' => 'ID が "%s" のデーモンプロセスが存在しません!',
     
+      'No daemons are running.' => '実行中のデーモンプロセスはありません.',
+    
+      'No daemons match \'%s\'! Use \'phd list\' for a list of available daemons.' => '\'%s\' にマッチするデーモンプロセスはありません!\'phd list\' コマンドを使用すると, 利用可能なデーモンのリストを取得できます.',
+    
       'No daemons to kill.' => 'Kill 対象となるデーモンはありません.',
     
       'No data available.' => 'データがありません.',
@@ -3994,6 +4332,10 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
       'No data.' => 'データがありません.',
     
       'No description provided.' => '説明が与えられていません.',
+    
+      'No document found at %s. You can <strong><a href="%s">create a new document here</a></strong>.' => 'No document found at %s. <strong><a href="%s">ここに新しいドキュメントを作成</a></strong>することができます.',
+    
+      'No edits for rule.' => 'ルールには編集がありません.',
     
       'No files.' => 'ファイルはありません.',
     
@@ -4005,7 +4347,13 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
     
       'No notifications.' => '通知はありません.',
     
+      'No object exists by that name.' => 'その名前を持つオブジェクトはありません.',
+    
       'No results found for this query.' => 'このクエリに対する結果はありません.',
+    
+      'No revisions are blocked on your action.' => 'あなたの対応でブロック中のリビジョンはありません.',
+    
+      'No revisions require your action.' => 'あなたの対応が必要なリビジョンはありません.',
     
       'No saved queries.' => '保存されたクエリはありません.',
     
@@ -4041,12 +4389,11 @@ NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンで
     
       'None' => 'なし',
     
-      'None of these policy rules have any effect.' => '以下のポリシーのルールには、実行内容が欠けています.',
+      'None of these policy rules have any effect.' => '以下のポリシーのルールには, 実行内容が欠けています.',
     
       'Normal' => '普通',
     
-      'Normally, Phabricator publishes notifications when it discovers new commits. You can disable publishing for this repository by turning off **Notify/Publish**. This will disable notifications, feed, and Herald (including audits and build plans) for this repository.\n\nWhen Phabricator discovers a new commit, it can automatically close associated revisions and tasks. If you don\'t want Phabricator to close objects when it discovers new commits in this repository, you can disable **Autoclose**.' => '%24lang-%3E%27Normally%2C+Phabricator+publishes+notifications+when+it+discovers+new+commits.+You+can+disable+publishing+for+this+repository+by+turning+off+%2A%2ANotify%2FPublish%2A%2A.+This+will+disable+notifications%2C+feed%2C+and+Herald+%28including+audits+and+build+plans%29+for+this+repository.%5Cn%5CnWhen+Phabricator+discovers+a+new+commit%2C+it+can+automatically+close+associated+revisions+and+tasks.+If+you+don%5C%27t+want+Phabricator+to+close+objects+when+it+discovers+new+commits+in+this+repository%2C+you+can+disable+%2A%2AAutoclose%2A%2A.%27
-Normally, Phabricator publishes notifications when it discovers new commits. You can disable publishing for this repository by turning off **Notify/Publish**. この設定は, このレポジトリでの 通知, フィード, ヘラルド (監査とビルドプランを含む) が無効化されます.\n\nこれにより Phabricator が新しいコミットを発見したとき, それに紐付いているリビジョンやタスクが自動的にクローズされえます. If you don\'t want Phabricator to close objects when it discovers new commits in this repository, you can disable **Autoclose**.',
+      'Normally, Phabricator publishes notifications when it discovers new commits. You can disable publishing for this repository by turning off **Notify/Publish**. This will disable notifications, feed, and Herald (including audits and build plans) for this repository.\n\nWhen Phabricator discovers a new commit, it can automatically close associated revisions and tasks. If you don\'t want Phabricator to close objects when it discovers new commits in this repository, you can disable **Autoclose**.' => 'Normally, Phabricator publishes notifications when it discovers new commits. You can disable publishing for this repository by turning off **Notify/Publish**. この設定は, このレポジトリでの 通知, フィード, ヘラルド (監査とビルドプランを含む) が無効化されます.\n\nこれにより Phabricator が新しいコミットを発見したとき, それに紐付いているリビジョンやタスクが自動的にクローズされえます. If you don\'t want Phabricator to close objects when it discovers new commits in this repository, you can disable **Autoclose**.',
     
       'Not Activated' => 'アクティブではありません',
     
@@ -4200,7 +4547,7 @@ Normally, Phabricator publishes notifications when it discovers new commits. You
     
       'Open in Editor' => 'エディタで開く',
     
-      'Optional directory name to use when cloning or checking out this repository.' => 'このレポジトリをクローン / チェックアウトする場合に使用されるディレクトリ名 (任意指定).',
+      'Opened' => 'オープン',
     
       'Options for Phabricator developers, including debugging.' => 'デバッグ等を含む, Phabricator 開発者のためのオプション項目.',
     
@@ -4241,6 +4588,8 @@ Normally, Phabricator publishes notifications when it discovers new commits. You
       'Orders' => 'オーダー',
     
       'Outcome: %s' => '成果: %s',
+    
+      'Override translations.' => '翻訳リソースの上書き.',
     
       'Overrides default fonts in tools like Differential.' => 'Differential 等の様なツールで使用されるデフォルトフォントを上書きします.',
     
@@ -4324,8 +4673,7 @@ Normally, Phabricator publishes notifications when it discovers new commits. You
     
       'Panels' => 'パネル',
     
-      'Parameter "%s" is named "%s" in the documentation. The documentation may be out of date.' => '%24lang-%3E%27Parameter+%22%25s%22+is+named+%22%25s%22+in+the+documentation.+The+documentation+may+be+out+of+date.%27
-Parameter "%s" is named "%s" in the documentation. ドキュメントは古く、旧版かと思われます.',
+      'Parameter "%s" is named "%s" in the documentation. The documentation may be out of date.' => 'Parameter "%s" is named "%s" in the documentation. ドキュメントは古く, 旧版かと思われます.',
     
       'Parameters' => 'パラメータ',
     
@@ -4361,7 +4709,7 @@ Parameter "%s" is named "%s" in the documentation. ドキュメントは古く�
     
       'Password for SMTP.' => 'SMTP のためのパスワード.',
     
-      'Password is pathologically weak. This password is one of the most common passwords in use, and is extremely easy for attackers to guess. You must choose a stronger password.' => 'パスワードが病的な弱さです. このパスワードは良く使用されるパスワードの1つであり, 攻撃者にとって推測が非常に容易です. 強いパスワード.',
+      'Password is pathologically weak. This password is one of the most common passwords in use, and is extremely easy for attackers to guess. You must choose a stronger password.' => 'Password is pathologically weak. このパスワードは良く使用されるパスワードの1つであり, 攻撃者にとって推測が非常に容易です. 強いパスワード.',
     
       'Password is required.' => 'パスワードは必須項目です.',
     
@@ -4383,13 +4731,17 @@ Parameter "%s" is named "%s" in the documentation. ドキュメントは古く�
     
       'Peace Out' => 'じゃあな！',
     
-      'Perforce is not directly supported, but you can import a Perforce repository as a Git repository using %s.' => 'Perforce は現在サポートされていませんが, %s を使用して Perforce レポジトリを Git レポジトリとしてインポートすることができます.',
+      'Period' => '期間',
     
       'Permanently Delete User' => 'ユーザの永久的な削除',
     
       'Permanently Linked' => '永続的にリンク済',
     
       'Permanently delete this status? This action can not be undone.' => 'このステータスを永久に削除しますか?この処理は元には戻せません.',
+    
+      'Permanently destroy objects.' => 'オブジェクトを永久に削除します.',
+    
+      'Permanently destroyed %s object(s).' => '%s オブジェクトを永久に削除しました.',
     
       'Personal' => '個人',
     
@@ -4411,7 +4763,7 @@ Parameter "%s" is named "%s" in the documentation. ドキュメントは古く�
     
       'Phabricator Mail' => 'Phabricator メール',
     
-      'Phabricator Registration' => 'Phabricator 登録',
+      'Phabricator Registration' => 'Phabricator アカウントの登録',
     
       'Phabricator Username' => 'Phabricator ユーザ名',
     
@@ -4445,11 +4797,15 @@ Parameter "%s" is named "%s" in the documentation. ドキュメントは古く�
     
       'Plaintext' => '生テキスト',
     
+      'Plan Changes \342\234\230' => '変更予定とする \342\234\230',
+    
       'Plan name is required.' => 'プラン名は必須項目です.',
     
       'Play Continuously' => '連続再生',
     
       'Play Once' => '一度きりの再生',
+    
+      'Please verify this document signature.' => 'このドキュメントの署名を検証してください.',
     
       'Pleated Khaki' => 'ひだ付きのカーキズボン',
     
@@ -4468,6 +4824,8 @@ Parameter "%s" is named "%s" in the documentation. ドキュメントは古く�
       'Pollution Solves Problems' => '汚染で問題解決',
     
       'Popular Social Network' => '人気のソーシャルネットワーク',
+    
+      'Preamble' => '前文',
     
       'Press %s to show keyboard shortcuts.' => '%s キーを押下でショートカットを表示.',
     
@@ -4517,8 +4875,7 @@ Parameter "%s" is named "%s" in the documentation. ドキュメントは古く�
     
       'Problems' => '問題',
     
-      'Progress on this build will be discarded and the build will restart. Side effects of the build will occur again. Really restart build?' => '%24lang-%3E%27Progress+on+this+build+will+be+discarded+and+the+build+will+restart.+Side+effects+of+the+build+will+occur+again.+Really+restart+build%3F%27
-Progress on this build will be discarded and the build will restart. Side effects of the build will occur again. 本当にビルドを再実行しますか?',
+      'Progress on this build will be discarded and the build will restart. Side effects of the build will occur again. Really restart build?' => 'Progress on this build will be discarded and the build will restart. Side effects of the build will occur again. 本当にビルドを再実行しますか?',
     
       'Project' => 'プロジェクト',
     
@@ -4664,19 +5021,41 @@ Progress on this build will be discarded and the build will restart. Side effect
     
       'Quick Start: Repositories' => 'クイックスタート: レポジトリ',
     
+      'REFERENCES' => '参照',
+    
+      'REPOSITORY' => 'レポジトリ',
+    
+      'REVISION DETAIL' => 'リビジョンの詳細',
+    
       'Radiant Beauty' => '光り輝く, 美',
     
       'Raise Concern \342\234\230' => '懸念を表明する \342\234\230',
     
       'Raised Concern' => '表明された懸念',
     
+      'Rank: Ace' => 'ランク: エース',
+    
+      'Rats!' => 'ネズミ!',
+    
+      'Raw Comment' => 'Raw コメント',
+    
+      'Raw Diff From File' => 'Raw Diff をファイルから読込',
+    
+      'Raw author name' => 'Raw 作成者名',
+    
+      'Raw author string: %s' => 'Raw 作成者文字列: %s',
+    
+      'Raw committer name' => 'Raw コミッタ名',
+    
+      'Raw committer string: %s' => 'Raw コミッタ文字列: %s',
+    
       'Read Only' => '読取 のみ',
     
       'Read/Write' => '読取 / 書込',
     
-      'Real Name' => '実名',
+      'Real Name' => '本名',
     
-      'Real name is required.' => '実名は必須項目です.',
+      'Real name is required.' => '本名は必須項目です.',
     
       'Really Close Branch?' => '本当にブランチを閉じますか?',
     
@@ -4728,8 +5107,7 @@ Progress on this build will be discarded and the build will restart. Side effect
     
       'Really disable macro?' => '本当にマクロを無効にしますか?',
     
-      'Really disable the much-beloved image macro %s? It will be sorely missed.' => '%24lang-%3E%27Really+disable+the+much-beloved+image+macro+%25s%3F+It+will+be+sorely+missed.%27
-Really disable the much-beloved image macro %s?この喪失は後々に惜しまれることでしょう.',
+      'Really disable the much-beloved image macro %s? It will be sorely missed.' => 'Really disable the much-beloved image macro %s?この喪失は後々に惜しまれることでしょう.',
     
       'Really disable this rule?' => '本当にこのルールを無効化しますか?',
     
@@ -4763,7 +5141,7 @@ Really disable the much-beloved image macro %s?この喪失は後々に惜しま
     
       'Really stop all builds?' => '本当に全てのビルドを停止しますか?',
     
-      'Really terminate all sessions? (Your current login session will not be terminated.)' => '本当に全てのセッションを停止しますか?(このログインセッションそのものは停止されません.)',
+      'Really terminate all sessions? (Your current login session will not be terminated.)' => 'Really terminate all sessions?(このログインセッションそのものは停止されません.)',
     
       'Really terminate session %s?' => '本当にセッション %s を停止しますか?',
     
@@ -4793,6 +5171,20 @@ Really disable the much-beloved image macro %s?この喪失は後々に惜しま
     
       'Ref "%s" is ambiguous or does not exist.' => 'Ref "%s" は曖昧もしくは存在しません.',
     
+      'Ref %s "%s" no longer exists.' => 'Ref %s "%s" はもう存在しません.',
+    
+      'Ref %s "%s" no longer points at %s.' => 'Ref %s "%s" はもう %s を指していません.',
+    
+      'Ref %s "%s" now points at %s.' => 'Ref %s "%s" は %s を指しています.',
+    
+      'Ref %s "%s" still points at %s.' => 'Ref %s "%s" はまだ %s を指しています.',
+    
+      'Ref change type' => 'Ref 変更タイプ',
+    
+      'Ref name' => 'Ref 名称',
+    
+      'Ref type' => 'Ref タイプ',
+    
       'Regenerate' => '再生成',
     
       'Regenerate Certificate' => '証明書を再生成',
@@ -4809,8 +5201,7 @@ Really disable the much-beloved image macro %s?この喪失は後々に惜しま
     
       'Release Lease' => 'Lease をリリース',
     
-      'Releasing a lease may cause trouble for the lease holder and trigger cleanup of the underlying resource. It can not be undone. Continue?' => '%24lang-%3E%27Releasing+a+lease+may+cause+trouble+for+the+lease+holder+and+trigger+cleanup+of+the+underlying+resource.+It+can+not+be+undone.+Continue%3F%27
-Releasing a lease may cause trouble for the lease holder and trigger cleanup of the underlying resource. 元に戻すことはできません. 続けますか?',
+      'Releasing a lease may cause trouble for the lease holder and trigger cleanup of the underlying resource. It can not be undone. Continue?' => 'Releasing a lease may cause trouble for the lease holder and trigger cleanup of the underlying resource. 元に戻すことはできません. 続けますか?',
     
       'Reload Page' => 'ページを再読込',
     
@@ -4850,11 +5241,35 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Reopen' => '再度オープン',
     
+      'Reopen Branch' => 'ブランチを再度オープン',
+    
+      'Reopen Initiative' => 'イニシアチブを再度オープン',
+    
+      'Reopen Initiative?' => 'イニシアチブを再度オープンしますか?',
+    
       'Reopen Poll' => '投票を再度オープン',
     
       'Reopen Question' => '質問を再度オープン',
     
+      'Reopened' => '再オープン',
+    
       'Reorder Columns' => 'カラム順序の変更',
+    
+      'Repaired commit "%s".' => 'コミット "%s" を修復しました.',
+    
+      'Reply' => '返信',
+    
+      'Reply handler for owners mail.' => '所有者メールのハンドラに返信します.',
+    
+      'Reply to Inline Comment' => 'インラインコメントへ返信',
+    
+      'Reply to comment' => 'コメントへ返信',
+    
+      'Reply to comment and attach files.' => 'コメントと, 添付ファイルに返信します.',
+    
+      'Reply to comment or !unsubscribe.' => 'コメント または !unsubscribe に返信します.',
+    
+      'Reply to comment.' => 'コメントに返信します.',
     
       'Reports' => 'レポート',
     
@@ -4862,17 +5277,43 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Repository' => 'レポジトリ',
     
+      'Repository "%s" does not have a correctly configured remote URI. The remote URI for a Subversion repository MUST point at the repository root. The root for this repository is "%s", but the configured URI is "%s". To resolve this error, set the remote URI to point at the repository root. If you want to import only part of a Subversion repository, use the "Import Only" option.' => 'Repository "%s" does not have a correctly configured remote URI. The remote URI for a Subversion repository MUST point at the repository root. The root for this repository is "%s", but the configured URI is "%s". このエラーを解決するには, Remote URI がレポジトリの Root を指すように設定してください. If you want to import only part of a Subversion repository, use the "Import Only" option.',
+    
       'Repository Active' => 'レポジトリはアクティブ',
+    
+      'Repository Autoclose Disabled' => 'レポジトリの自動クローズは無効です',
     
       'Repository Inactive' => 'レポジトリは非アクティブ',
     
+      'Repository Mirror' => 'レポジトリのミラー',
+    
       'Repository Name and Location' => 'レポジトリ名と場所',
+    
+      'Repository Ready!' => 'レポジトリ準備完了!',
     
       'Repository Remote URI' => 'レポジトリの Remote URI',
     
+      'Repository Root' => 'レポジトリの Root',
+    
       'Repository Type' => 'レポジトリの種類',
     
+      'Repository UUID' => 'レポジトリ UUID',
+    
+      'Repository has unknown version control system!' => 'レポジトリは不明なバージョン管理システムを使用しています!',
+    
+      'Repository name is required.' => 'レポジトリ名は必須項目です.',
+    
       'Repository\'s projects' => 'レポジトリのプロジェクト',
+    
+      'Request Changes \342\234\230' => '変更を要求 \342\234\230',
+    
+      'Request Pull' => 'Pull を要求',
+    
+      'Request Review' => 'レビューを要求',
+    
+      'Require "Test Plan" field?' => '"テストプラン" フィールドを必須としますか?',
+    
+      'Require \'Test Plan\' field' => '\'テストプラン\' フィールドを必須とする',
     
       'Require a vote to see the responses' => '投票すると結果を見ることができます',
     
@@ -4886,6 +5327,8 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Required Input' => '必須項目',
     
+      'Required PHP extensions are not installed.' => '必要な PHP 拡張がインストールされていません..',
+    
       'Rescind Token' => 'トークンを取り消す',
     
       'Reset Password' => 'パスワードのリセット',
@@ -4896,7 +5339,7 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Resolve Setup Issues' => 'セットアップ上の課題を解決',
     
-      'Resolve issues and build consensus through protracted deliberation.' => '長い長い審議を重ねた後の、総意の決定と問題解決を待ちましょう.',
+      'Resolve issues and build consensus through protracted deliberation.' => '長い長い審議を重ねた後の, 総意の決定と問題解決を待ちましょう.',
     
       'Resolved' => '解決',
     
@@ -4914,6 +5357,10 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Retries Forever' => '永遠に試行を繰り返す',
     
+      'Return to Application' => 'アプリケーションに戻る',
+    
+      'Return to Initiative' => 'イニシアチブに戻る',
+    
       'Review' => 'レビュー',
     
       'Review Code' => 'コードのレビュー',
@@ -4922,9 +5369,11 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Review Recent Activity' => '最近の活動をレビュー',
     
-      'Reviewer' => 'レビュアー',
+      'Review Requested' => 'レビュー要求済',
     
-      'Reviewers' => 'レビュアー',
+      'Review is already requested for this revision.' => 'このリビジョンに対してのレビューは, 既に要求済みです.',
+    
+      'Reviewer' => 'レビュアー',
     
       'Reviewers: %s' => 'レビュアー: %s',
     
@@ -4932,9 +5381,17 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Revision Update History' => 'リビジョン更新履歴',
     
+      'Revisions Waiting on You' => 'あなたの対応を待機中のリビジョン',
+    
+      'Revisions newer than this number of days are marked as fresh in Action Required and Revisions Waiting on You views. Only work days (not weekends and holidays) are included. Set to 0 to disable this feature.' => 'Revisions newer than this number of days are marked as fresh in Action Required and Revisions Waiting on You views. Only work days (not weekends and holidays) are included. この機能を無効とするには 0 を指定してください.',
+    
       'Revoke' => '無効化',
     
       'Revoke All' => 'すべて無効化',
+    
+      'Revoke Authorization' => '認証を無効化',
+    
+      'Revoke Authorization?' => '認証を無効化しますか?',
     
       'Revoke Token' => 'トークンを無効化',
     
@@ -4966,9 +5423,9 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Rule Type' => 'ルールタイプ',
     
-      'Rule failed automatically because it has no conditions.' => '条件がないため、ルールは自動的に失敗となりました.',
+      'Rule failed automatically because it has no conditions.' => '条件がないため, ルールは自動的に失敗となりました.',
     
-      'Rule for' => 'ルール for',
+      'Rule for' => 'ルールの対象',
     
       'Rule must have a name.' => 'ルールには名前が必要です.',
     
@@ -5092,7 +5549,7 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Scheduling repository "%s" for an update (%s seconds overdue).' => 'レポジトリ "%s" の更新の予約をしています. (%s 秒 遅れ).',
     
-      'Schema Status' => 'スキーマ ステータス',
+      'Schema Status' => 'スキーマの状態',
     
       'Scope' => 'スコープ',
     
@@ -5101,6 +5558,8 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
       'Search Error' => '検索エラー',
     
       'Search File Names' => 'ファイル名で検索',
+    
+      'Search For' => '検索対象',
     
       'Search Preferences' => '検索設定',
     
@@ -5150,7 +5609,7 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Send "Welcome to Phabricator" email with login instructions.' => '"ようこそ Phabricator へ" メッセージを, ログイン手引書と一緒にEmail 送信',
     
-      'Send Another Email' => 'もう一通 Email 送信',
+      'Send Another Email' => 'Email をもう一度送信する',
     
       'Send Another Verification Email?' => 'もう一度確認メールを送りましょうか?',
     
@@ -5168,6 +5627,8 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Send Plain Text Email' => 'プレーンテキストで Email 送信',
     
+      'Send Test Notification' => 'テスト通知を送信',
+    
       'Send Welcome Email' => 'ようこそメールを送信',
     
       'Send a Message' => 'メッセージを送信',
@@ -5175,6 +5636,14 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
       'Send an email to' => 'Email を送る',
     
       'Send another copy of the verification email to %s?' => 'Email アドレス検証用のメールをもう一通, %s に送信し  ますか?',
+    
+      'Send me an email' => 'Email を送る',
+    
+      'Send me an email when I take an action' => '自分がアクションを起こすごとに Email を送る',
+    
+      'Send me email notifications' => 'Email 通知を送る',
+    
+      'Sending %s a SIGKILL.' => '%s に SIGKILL シグナルを送信中.',
     
       'Sep' => '9月',
     
@@ -5191,6 +5660,8 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
       'Serve over HTTP' => 'HTTP 経由のサービス',
     
       'Serve over SSH' => 'SSH 経由のサービス',
+    
+      'Server Default (%s)' => 'サーバ Default (%s)',
     
       'Server Error' => 'サーバエラー',
     
@@ -5234,8 +5705,7 @@ Releasing a lease may cause trouble for the lease holder and trigger cleanup of 
     
       'Short project description.' => 'プロジェクトの短い説明.',
     
-      'Should Conpherence send emails for updates or notifications only? This global setting can be overridden on a per-thread basis within Conpherence.' => '%24lang-%3E%27Should+Conpherence+send+emails+for+updates+or+notifications+only%3F+This+global+setting+can+be+overridden+on+a+per-thread+basis+within+Conpherence.%27
-Should Conpherence send emails for updates or notifications only?これはグローバル設定です. Conpherence のスレッド設定が優先されますｓ.',
+      'Should Conpherence send emails for updates or notifications only? This global setting can be overridden on a per-thread basis within Conpherence.' => 'Should Conpherence send emails for updates or notifications only?これはグローバル設定です. Conpherence のスレッド設定が優先されますｓ.',
     
       'Should the feed be public?' => 'フィードを広く公開しますか?',
     
@@ -5401,7 +5871,7 @@ Should Conpherence send emails for updates or notifications only?これはグロ
     
       'Shows user join date.' => '参加日時を表示します.',
     
-      'Shows when a user is away or busy.' => 'ユーザーが、離席中または多忙かを表示します.',
+      'Shows when a user is away or busy.' => 'ユーザーが 離席中 または 多忙 かを表示します.',
     
       'Shuffle' => 'シャッフル',
     
@@ -5424,6 +5894,8 @@ Should Conpherence send emails for updates or notifications only?これはグロ
       'Signed' => '署名されています',
     
       'Signed Documents' => '署名付きドキュメント',
+    
+      'Signed on %s' => '%s に署名	',
     
       'Signers' => '署名人',
     
@@ -5451,7 +5923,7 @@ Should Conpherence send emails for updates or notifications only?これはグロ
     
       'Source' => 'ソース',
     
-      'Specify a comma-separated list of additional hashtags.' => 'コンマ区切りで、追加のハッシュタグを指定してください.',
+      'Specify a comma-separated list of additional hashtags.' => 'コンマ区切りで, 追加のハッシュタグを指定してください.',
     
       'Spite' => 'ポイ捨て',
     
@@ -5537,7 +6009,7 @@ Should Conpherence send emails for updates or notifications only?これはグロ
     
       'Strength' => '強度',
     
-      'Stronger algorithms are listed first. The highlighted algorithm will be used when storing new hashes. Older hashes will be upgraded to the best algorithm over time.' => '下のリストでは, 強度の高いアルゴリズムが上位に挙げられています. ハイライトされているアルゴリズムが, 新しいハッシュ生成時に使用されることになります. そのため, 古いハッシュで保存されたパスワードは、ベストのアルゴリズムを使うよう, 徐々に更新がなされます.',
+      'Stronger algorithms are listed first. The highlighted algorithm will be used when storing new hashes. Older hashes will be upgraded to the best algorithm over time.' => 'Stronger algorithms are listed first. ハイライトされているアルゴリズムが, 新しいハッシュ生成時に使用されることになります. そのため, 古いハッシュで保存されたパスワードは, ベストのアルゴリズムを使うよう, 徐々に更新がなされます.',
     
       'Subject prefix for Conpherence mail.' => 'Conpherence メールの題名につける先頭文字列.',
     
@@ -5569,11 +6041,11 @@ Should Conpherence send emails for updates or notifications only?これはグロ
     
       'Subscribed' => '購読済',
     
-      'Subscribers' => '購読者',
-    
       'Subscriptions' => '購読リスト',
     
       'Successfully updated your status.' => 'ステータスは更新されました.',
+    
+      'Suggest Reviewers' => 'レビュアーを提案',
     
       'Sun' => '日',
     
@@ -5581,7 +6053,21 @@ Should Conpherence send emails for updates or notifications only?これはグロ
     
       'Surprise!' => 'ドッキリ!',
     
+      'Symbolic Name' => 'シンボリック名',
+    
       'Syntax Highlighting' => '構文ハイライト',
+    
+      'TAGS' => 'タスク',
+    
+      'TASK DESCRIPTION' => 'タスクの説明',
+    
+      'TASK DETAIL' => 'タスクの詳細',
+    
+      'TEST PLAN' => 'テストプラン',
+    
+      'TEXT BODY' => 'テキスト本文',
+    
+      'TOTAL' => '合計',
     
       'Table' => '表',
     
@@ -5665,9 +6151,21 @@ Should Conpherence send emails for updates or notifications only?これはグロ
     
       'Text Encoding' => 'テキストエンコード',
     
+      'Thank you for signing this document. Please check your email to verify your signature and complete the process.' => 'Thank you for signing this document. 署名を検証し手続きを完了するために, Email を確認してください.',
+    
+      'That email addess is not verified. You can only send password reset links to a verified address.' => 'That email addess is not verified. パスワードリセット用の URL リンクは, 検証済みのアドレスにのみ送信できます.',
+    
+      'That user does not exist.' => 'このユーザは存在しません.',
+    
+      'That user has already signed this document.' => 'このユーザは既にこのドキュメントに署名しています.',
+    
       'The Cloud' => 'クラウド',
     
       'The More You Know' => 'お星様',
+    
+      'The authentication provider did not return a client state parameter in its response, but one was expected. If this problem persists, you may need to clear your cookies.' => 'The authentication provider did not return a client state parameter in its response, but one was expected. この問題が続く場合は, ブラウザの Cookie をクリアしなければならないかもしれません.',
+    
+      'The authentication provider did not return the correct client state parameter in its response. If this problem persists, you may need to clear your cookies.' => 'The authentication provider did not return the correct client state parameter in its response. この問題が続く場合は, ブラウザの Cookie をクリアしなければならないかもしれません.',
     
       'The author of a blog post can always view and edit it.' => 'ブログポストの作成者自身は常に閲覧と編集が可能です.',
     
@@ -5683,9 +6181,21 @@ Should Conpherence send emails for updates or notifications only?これはグロ
     
       'The author of an answer can always view and edit it.' => '回答の作成者自身は常に閲覧と編集が可能です.',
     
+      'The best way to create a Differential diff is by using %s, but you can also just paste a diff (for example, from %s, %s or %s) into this box, or upload a diff file.' => 'Differenrial Diff を作成する一番良い方法は %s を使うことですが, 代わりにここに差分をペーストすることもできます ( %s, %s, %s などの出力に対応しています). ペーストではなく Diff ファイルのアップロードも可能です.',
+    
+      'The callsign must contain only UPPERCASE letters.' => 'コールサインは英字大文字のみで構成されなければなりません.',
+    
+      'The callsign of the repository in Phabricator.' => 'Phabricator 内にあるこのレポジトリのコールサイン.',
+    
       'The conpherence will be inaccessible forever and ever.' => 'Conpherence には永久に永遠にアクセスできなくなります.',
     
       'The contents of this file were not changed.' => 'このファイルの内容に変更はありません.',
+    
+      'The document may not be blank.' => 'ドキュメントが空であってはなりません.',
+    
+      'The document title may not be blank.' => 'ドキュメントタイトルは空であってはなりません.',
+    
+      'The email address %s is now verified.' => 'Email アドレス %s が検証されました.',
     
       'The old password you entered is incorrect.' => '入力された古いパスワードが違います.',
     
@@ -5697,26 +6207,31 @@ Should Conpherence send emails for updates or notifications only?これはグロ
     
       'The primary hashtag is derived from the name.' => 'メインとなるハッシュタグはプロジェクト名から生成されます.',
     
-      'The public key has been associated with the %s account. Use the button below to download the private key.' => '%24lang-%3E%27The+public+key+has+been+associated+with+the+%25s+account.+Use+the+button+below+to+download+the+private+key.%27
-The public key has been associated with the %s account. 下のボタンを押して秘密鍵をダウンロードしてください.',
+      'The public key has been associated with the %s account. Use the button below to download the private key.' => 'The public key has been associated with the %s account. 下のボタンを押して秘密鍵をダウンロードしてください.',
     
-      'The public key has been associated with your Phabricator account. Use the button below to download the private key.' => '%24lang-%3E%27The+public+key+has+been+associated+with+your+Phabricator+account.+Use+the+button+below+to+download+the+private+key.%27
-The public key has been associated with your Phabricator account. 下のボタンを押して秘密鍵をダウンロードしてください.',
+      'The public key has been associated with your Phabricator account. Use the button below to download the private key.' => 'The public key has been associated with your Phabricator account. 下のボタンを押して秘密鍵をダウンロードしてください.',
     
-      'The secret associated with this credential will be shown in plain text on your screen. Before continuing, wrap your arms around your monitor to create a human shield, keeping it safe from prying eyes. Protect company secrets!' => '%24lang-%3E%27The+secret+associated+with+this+credential+will+be+shown+in+plain+text+on+your+screen.+Before+continuing%2C+wrap+your+arms+around+your+monitor+to+create+a+human+shield%2C+keeping+it+safe+from+prying+eyes.+Protect+company+secrets%21%27
-The secret associated with this credential will be shown in plain text on your screen. ここから進む前に, あなたがしなければならないことがあります. 覗き見を防ぐために, 自分の腕でモニターを抱きしめ人の壁となるのです. Protect company secrets!',
+      'The secret associated with this credential will be shown in plain text on your screen. Before continuing, wrap your arms around your monitor to create a human shield, keeping it safe from prying eyes. Protect company secrets!' => 'The secret associated with this credential will be shown in plain text on your screen. ここから進む前に, あなたがしなければならないことがあります. 覗き見を防ぐために, 自分の腕でモニターを抱きしめ人の壁となるのです. Protect company secrets!',
+    
+      'The signature is now verified.' => 'この署名は検証されました.',
     
       'The timezone Phabricator should use.' => 'Phabricator が使用すべきタイムゾーン.',
     
-      'The work this task represents will never be performed if you cancel it. Are you sure you want to cancel it?' => 'キャンセルを行うと, この処理は二度と実行されなくなるかもしれません. それでもキャンセルを行いますか?',
+      'The work this task represents will never be performed if you cancel it. Are you sure you want to cancel it?' => 'The work this task represents will never be performed if you cancel it. それでもキャンセルを行いますか?',
     
       'There are no facts that can be plotted yet.' => 'まだ,グラフ化できるファクトはありません.',
+    
+      'There is no account associated with that email address.' => 'その Email アドレスに紐付けられたアカウントはありません.',
+    
+      'There is no repository with that callsign.' => 'そのコールサインのレポジトリはありません.',
     
       'These paths get appended to your \\$PATH envrionment variable.' => 'These paths get appended to your \$PATH envrionment variable.',
     
       'These rules are processed in order.' => 'これらのルールは順番通りに処理されます.',
     
       'This %s rule triggers for %s.' => 'この %s ルールは %s をトリガーにしています.',
+    
+      'This allows customizing texts used in Phabricator. The class must extend PhabricatorTranslation.' => 'This allows customizing texts used in Phabricator. クラスは PhabricatorTranslation を拡張している必要があります.',
     
       'This application is a prototype. %s' => 'このアプリケーションはプロトタイプです. %s',
     
@@ -5738,40 +6253,31 @@ The secret associated with this credential will be shown in plain text on your s
     
       'This blog has no visible posts.' => 'このブログに表示できるポストはありません.',
     
-      'This commit is still importing. Changes will be visible once the import finishes.' => 'まだこのコミットの情報をインポート中です. インポートが終わり次第, 変更内容が表示されます.',
+      'This commit is still importing. Changes will be visible once the import finishes.' => 'This commit is still importing. インポートが終わり次第, 変更内容が表示されます.',
     
       'This commit is very large. Load each file individually.' => 'これは, 非常に大きなコミットです. Load each file individually.',
     
-      'This credential has been locked and the secret is hidden forever. Anything relying on this credential will still function. This operation can not be undone.' => '%24lang-%3E%27This+credential+has+been+locked+and+the+secret+is+hidden+forever.+Anything+relying+on+this+credential+will+still+function.+This+operation+can+not+be+undone.%27
-This credential has been locked and the secret is hidden forever. Anything relying on this credential will still function. この処理は元に戻すことはできません.',
+      'This credential has been locked and the secret is hidden forever. Anything relying on this credential will still function. This operation can not be undone.' => 'This credential has been locked and the secret is hidden forever. Anything relying on this credential will still function. この処理は元に戻すことはできません.',
     
-      'This credential will be deactivated and the secret will be unrecoverably destroyed. Anything relying on this credential will cease to function. This operation can not be undone.' => '%24lang-%3E%27This+credential+will+be+deactivated+and+the+secret+will+be+unrecoverably+destroyed.+Anything+relying+on+this+credential+will+cease+to+function.+This+operation+can+not+be+undone.%27
-This credential will be deactivated and the secret will be unrecoverably destroyed. Anything relying on this credential will cease to function. この処理は元に戻すことはできません.',
+      'This credential will be deactivated and the secret will be unrecoverably destroyed. Anything relying on this credential will cease to function. This operation can not be undone.' => 'This credential will be deactivated and the secret will be unrecoverably destroyed. Anything relying on this credential will cease to function. この処理は元に戻すことはできません.',
     
-      'This credential will be locked and the secret will be hidden forever. Anything relying on this credential will still function. This operation can not be undone.' => '%24lang-%3E%27This+credential+will+be+locked+and+the+secret+will+be+hidden+forever.+Anything+relying+on+this+credential+will+still+function.+This+operation+can+not+be+undone.%27
-This credential will be locked and the secret will be hidden forever. Anything relying on this credential will still function. この処理は元に戻すことはできません.',
+      'This credential will be locked and the secret will be hidden forever. Anything relying on this credential will still function. This operation can not be undone.' => 'This credential will be locked and the secret will be hidden forever. Anything relying on this credential will still function. この処理は元に戻すことはできません.',
     
-      'This daemon did not report a status update for %s. It is presumed dead. Usually, this indicates that the daemon was killed or otherwise exited abruptly with an error. You may need to restart it.' => 'このデーモンは, %s の間ステータス更新報告をしていません.. 亡くなったものと思われます.. 大抵のケースで, この状態はデーモンが意図的に Kill されたか, エラー発生により突然終了したかのどちらかを表しています. おそらく手動で再起動の必要があるでしょう.',
-    
-      'This daemon encountered an error recently and is waiting a moment to restart.' => 'このデーモンは最近エラーを発見し, 再起動を待っています.',
+      'This daemon did not report a status update for %s. It is presumed dead. Usually, this indicates that the daemon was killed or otherwise exited abruptly with an error. You may need to restart it.' => 'This daemon did not report a status update for %s. 亡くなったものと思われます.. 大抵のケースで, この状態はデーモンが意図的に Kill されたか, エラー発生により突然終了したかのどちらかを表しています. おそらく手動で再起動の必要があるでしょう.',
     
       'This daemon exited cleanly.' => 'このデーモンは通常終了しました.',
     
       'This daemon exited normally and is no longer running.' => 'このデーモンは通常終了し, 現在動作していません.',
     
-      'This daemon has not reported a status update recently (within %s). It may have exited abruptly. After %s, it will be presumed dead.' => 'このデーモンからは最近連絡がありません (%s 以内). 突然終了した可能性があります. %s 経過後は, 亡くなったものとして扱います.',
+      'This daemon has not reported a status update recently (within %s). It may have exited abruptly. After %s, it will be presumed dead.' => 'This daemon has not reported a status update recently (within %s). 突然終了した可能性があります. %s 経過後は, 亡くなったものとして扱います.',
     
-      'This daemon has not reported its status recently. It may have exited uncleanly.' => 'このデーモンからは最近, 連絡がありません. 終了処理なしに亡くなった可能性があります.',
+      'This daemon has not reported its status recently. It may have exited uncleanly.' => 'This daemon has not reported its status recently. 終了処理なしに亡くなった可能性があります.',
     
       'This daemon is exiting.' => 'このデーモンは終了しています.',
     
       'This daemon is lost or exited uncleanly, and is presumed dead.' => 'このデーモンは, コントロールが失われ, 終了処理なしに行方不明となりました. 亡くなったものと思われます.',
     
-      'This daemon is running normally and reported a status update recently (within %s).' => 'このデーモンは通常動作をしており, 直近のステータス更新報告があります (%s 以内).',
-    
-      'This daemon is running normally and reported a status update recently (within %s). However, it encountered an error while doing work and is waiting a little while (%s) to resume processing. After encountering an error, daemons wait before resuming work to avoid overloading services.' => 'このデーモンは通常動作をしており, 直近のステータス更新報告があります (%s 以内). しかしながら、動作中にエラーに遭遇し, 少しの間 (%s) 動作を停止してから処理を続行しようとしています. エラーが発生した時, 各デーモンは処理続行まで間隔を取ることで負荷の増大を避けるようにしています.',
-    
-      'This daemon is running with an out of date configuration and should be restarted.' => 'このデーモンは古い設定データを保持・参照して動作しています. 再起動されるべきです.',
+      'This daemon is running normally and reported a status update recently (within %s). However, it encountered an error while doing work and is waiting a little while (%s) to resume processing. After encountering an error, daemons wait before resuming work to avoid overloading services.' => 'This daemon is running normally and reported a status update recently (within %s). しかしながら, 動作中にエラーに遭遇し, 少しの間 (%s) 動作を停止してから処理を続行しようとしています. エラーが発生した時, 各デーモンは処理続行まで間隔を取ることで負荷の増大を避けるようにしています.',
     
       'This daemon is running.' => 'デーモンは動作しています.',
     
@@ -5782,6 +6288,10 @@ This credential will be locked and the secret will be hidden forever. Anything r
       'This dashboard is installed to your personal homepage.' => 'このダッシュボードはあなたの個人ホームページにインストールされています.',
     
       'This dashboard is the default homepage for all users.' => 'このダッシュボードはユーザ全員のデフォルトホームページです.',
+    
+      'This document was moved from elsewhere.' => 'このドキュメントは他の場所から移動されました.',
+    
+      'This email address has already been verified.' => 'この Email アドレスは既に検証済みです.',
     
       'This file content has been collapsed.' => 'ファイル内容の表示が畳まれています.',
     
@@ -5837,7 +6347,7 @@ This credential will be locked and the secret will be hidden forever. Anything r
     
       'This is a directory.' => 'ディレクトリです.',
     
-      'This is a simple template dashboard. You can edit this panel to change this text and replace it with a welcome message, or leave this placeholder text as-is to give your dashboard a rustic, authentic feel.\n\nYou can drag, remove, add, and edit panels to customize the rest of this dashboard to show the information you want.\n\nTo install this dashboard on the home page, use the **Install Dashboard** action link above.' => 'これは, テンプレートボードですこのメッセージは	変更可能です. パネルを編集し, 任意のようこそメッセージに書き変えましょう. ( そのままにすることで, 厳正に放置された雰囲気を残すこともできます .)\n\n 残りのパネルについてもドラッグ・削除・追加・編集を通して, 表示内容の調整が可能です.\n\nこのダッシュボードをホームページにインストールするには、上にある **ダッシュボードをインストール** アクションリンクを使用してください.',
+      'This is a simple template dashboard. You can edit this panel to change this text and replace it with a welcome message, or leave this placeholder text as-is to give your dashboard a rustic, authentic feel.\n\nYou can drag, remove, add, and edit panels to customize the rest of this dashboard to show the information you want.\n\nTo install this dashboard on the home page, use the **Install Dashboard** action link above.' => 'This is a simple template dashboard. このメッセージは変更可能です. パネルを編集し, 任意のようこそメッセージに書き変えましょう. ( そのままにすることで, 厳正に放置された雰囲気を残すこともできます .)\n\n 残りのパネルについてもドラッグ・削除・追加・編集を通して, 表示内容の調整が可能です.\n\nこのダッシュボードをホームページにインストールするには, 上にある **ダッシュボードをインストール** アクションリンクを使用してください.',
     
       'This is a submodule.' => 'サブモジュールです.',
     
@@ -5845,24 +6355,25 @@ This credential will be locked and the secret will be hidden forever. Anything r
     
       'This is a test notification, sent at %s.' => 'これは %s 宛てのテスト通知です.',
     
-      'This is an error email, but one or more recipients have exceeded the error email rate limit. Declining to deliver message.' => '%24lang-%3E%27This+is+an+error+email%2C+but+one+or+more+recipients+have+exceeded+the+error+email+rate+limit.+Declining+to+deliver+message.%27
-This is an error email, but one or more recipients have exceeded the error email rate limit. メッセージの配達を却下しています.',
+      'This is an error email, but one or more recipients have exceeded the error email rate limit. Declining to deliver message.' => 'This is an error email, but one or more recipients have exceeded the error email rate limit. メッセージの配達を却下しています.',
     
       'This is an image.' => '画像です.',
     
-      'This merchant does not have any payment providers configured yet, so it can not accept payments. Add a provider.' => '%24lang-%3E%27This+merchant+does+not+have+any+payment+providers+configured+yet%2C+so+it+can+not+accept+payments.+Add+a+provider.%27
-This merchant does not have any payment providers configured yet, so it can not accept payments. プロバイダを追加.',
+      'This merchant does not have any payment providers configured yet, so it can not accept payments. Add a provider.' => 'This merchant does not have any payment providers configured yet, so it can not accept payments. プロバイダを追加.',
     
-      'This post is not associated with a blog (the blog may have been deleted). Use "Move Post" to move it to a new blog.' => '%24lang-%3E%27This+post+is+not+associated+with+a+blog+%28the+blog+may+have+been+deleted%29.+Use+%22Move+Post%22+to+move+it+to+a+new+blog.%27
-This post is not associated with a blog (the blog may have been deleted). 新しいブログに移動させるには, "ポストを移動" を使ってください.',
+      'This password is extremely weak: it is one of the most common passwords in use. Choose a stronger password.' => 'パスワードの強度が極めて低いと判断されました: 世の中で最も利用される脆弱なパスワードの1つが指定されています. Choose a stronger password.',
+    
+      'This password is the same as another password associated with your account. You must use a unique password for VCS access.' => 'そのパスワードは, アカウントで使用されているものと同じです. VCS の利用では, それと異なるユニークなパスワードを使用してください.',
+    
+      'This path does not exist anywhere.' => 'このパスはもう存在しません.',
+    
+      'This post is not associated with a blog (the blog may have been deleted). Use "Move Post" to move it to a new blog.' => 'This post is not associated with a blog (the blog may have been deleted). 新しいブログに移動させるには, "ポストを移動" を使ってください.',
     
       'This project does not have any members.' => 'このプロジェクトはメンバがいません.',
     
       'This project will be moved to the archive.' => 'このプロジェクトはアーカイブに移動されます.',
     
       'This project will become active again.' => 'このプロジェクトは再びアクティブになります.',
-    
-      'This push was rejected by Herald push rule %s.\nChange: %s\n  Rule: %s\nReason: %s' => 'このプッシュはヘラルドルール %s により拒絶されました.\n変更: %s\n  ルール: %s\n理由: %s',
     
       'This repository does not have any commits yet.' => 'このレポジトリにはまだ何もコミットされていません.',
     
@@ -5896,11 +6407,15 @@ This post is not associated with a blog (the blog may have been deleted). 新し
     
       'This revision already requires changes.' => 'このリビジョンは変更を必要としています.',
     
+      'This revision can not be accepted until the required legal agreements have been signed.' => 'このリビジョンの受諾には法的合意の署名が必要.',
+    
       'This revision has already been abandoned.' => 'このリビジョンは既に破棄されました.',
     
       'This revision is already closed.' => 'このリビジョンは閉じられました.',
     
-      'This revision is now accepted and ready to land.' => 'このリビジョンは承諾され, 投入準備ができています.',
+      'This revision is now accepted and ready to land.' => 'このリビジョンは受諾済, 投入準備は完了.',
+    
+      'This revision needs review, but all specified reviewers are disabled or inactive.' => 'このリビジョンはレビューを要求中, レビュアー全員が無効か非アクティブ.',
     
       'This revision needs review, but there are no reviewers specified.' => 'このリビジョンはレビューを必要としていますが, レビュアーが誰も指定されていません.',
     
@@ -5908,9 +6423,19 @@ This post is not associated with a blog (the blog may have been deleted). 新し
     
       'This revision now requires review to proceed.' => 'このリビジョンを処理するにはレビューが必要となっています.',
     
+      'This revision was automatically updated to reflect the committed changes.' => 'このリビジョンはコミットによる変更反映時に自動更新された.',
+    
+      'This rule can trigger for **repositories** and **projects**.' => 'このルールは **レポジトリ** と **プロジェクト** のトリガーとなり得ます.',
+    
+      'This rule can trigger for **repositories** or **projects**.' => 'このルールは **レポジトリ** もしくは **プロジェクト** のトリガーとなり得ます.',
+    
       'This rule will become active again.' => 'このルールが再度アクティブになります.',
     
       'This rule will no longer activate.' => 'このルールは非アクティブな状態になります.',
+    
+      'This was a Web request.' => 'それは Web リクエストでした.',
+    
+      'This was an Ajax request.' => 'それは Ajax リクエストでした.',
     
       'This will be displayed as the header of the column.' => 'カラムのヘッダに表示されるテキストです.',
     
@@ -5930,9 +6455,11 @@ This post is not associated with a blog (the blog may have been deleted). 新し
     
       'Time Spent' => '経過した時間',
     
-      'Time-of-Day Format' => '日付・時間のフォーマット',
+      'Time-of-Day Format' => '時間の表示形式',
     
       'Timezone' => 'タイムゾーン',
+    
+      'Tip: %s' => 'ヒント: %s',
     
       'Title' => 'タイトル',
     
@@ -5948,14 +6475,19 @@ This post is not associated with a blog (the blog may have been deleted). 新し
     
       'Title was changed from "%s" to "%s"' => 'タイトルが "%s" から "%s" に変更された',
     
+      'To access repositories hosted by Phabricator over HTTP, you must set a version control password. This password should be unique.\n\nThis password applies to all repositories available over HTTP.' => 'Phabricator によってホスト中のレポジトリを HTTP 経由で利用するためには, まずバージョン管理用パスワードを設定する必要があります. このパスワードはユニークでなければなりません.\n\nこのパスワードは全てのレポジトリを HTTP 経由で利用する際に使用されます.',
+    
+      'To add an authentication factor, click the %s button below.' => '認証ファクタを追加するには, 下の %s ボタンをクリックしてください.',
+    
+      'To add files, drag and drop them into the comment text area.' => 'ファイルは, コメント領域にドラッグ&ドロップすることでも追加できます.',
+    
       'To continue, resolve this problem and reload the page.' => '続けるには, この問題を解決し, ページの再読込をしてください.',
     
       'To permanently destroy this user, run this command:' => 'ユーザを永久的に削除するために, 以下のコマンドを実行してください:',
     
       'Today' => '今日',
     
-      'Today, I went to the store. I bought an apple. I bought a banana. I bought a cherry. I paid for my goods, then I returned home.' => '%24lang-%3E%27Today%2C+I+went+to+the+store.+I+bought+an+apple.+I+bought+a+banana.+I+bought+a+cherry.+I+paid+for+my+goods%2C+then+I+returned+home.%27
-Today, I went to the store. りんごを一つ, 買いました. バナナを一つ, 買いました. サクランボを一つ, 買いました. I paid for my goods, then I returned home.',
+      'Today, I went to the store. I bought an apple. I bought a banana. I bought a cherry. I paid for my goods, then I returned home.' => 'Today, I went to the store. りんごを一つ, 買いました. バナナを一つ, 買いました. サクランボを一つ, 買いました. I paid for my goods, then I returned home.',
     
       'Token' => 'トークン',
     
@@ -5992,6 +6524,8 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
       'Translation class that should be used for strings.' => '文字リソースのために使用されるべきTranslationクラス.',
     
       'Translations' => '翻訳',
+    
+      'Tree' => 'ツリー',
     
       'Trigger an Audit by' => '次による監査を要求する',
     
@@ -6091,6 +6625,26 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
     
       'Unique Snowflake' => '変な雪の結晶',
     
+      'Unit' => 'Unit テスト',
+    
+      'Unit Test Errors' => 'Unit テスト エラー',
+    
+      'Unit Test Warnings' => 'Unit テスト 警告',
+    
+      'Unit Tests OK' => 'Unit テスト OK',
+    
+      'Unit Tests Postponed' => 'Unit テスト 延期',
+    
+      'Unit Tests Skipped' => 'Unit テスト スキップ',
+    
+      'Unit test value.' => 'Unit テストの値.',
+    
+      'Unit tests were skipped when generating these changes.' => 'これらの変更を生成するときにユニットテストはスキップされました.',
+    
+      'Unknown' => '不明',
+    
+      'Unknown ("%s")' => '不明 ("%s")',
+    
       'Unknown Account ("%s")' => '不明なアカウント ("%s")',
     
       'Unknown Object (%s)' => '不明なオブジェクト (%s)',
@@ -6173,7 +6727,11 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
     
       'Unread Notifications' => '未読の通知',
     
+      'Unsubmitted Comments' => '編集途中のコメント',
+    
       'Unsubscribe' => '購読解除',
+    
+      'Unsupported Editor Protocol' => 'サポートされていないエディタプロトコル',
     
       'Untitled Article "%s"' => '無題の記事 "%s"',
     
@@ -6339,6 +6897,8 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
     
       'Usernames' => 'ユーザ名',
     
+      'Usernames must contain only numbers, letters, period, underscore and hyphen, and can not end with a period. They must have no more than %d characters.' => 'Usernames must contain only numbers, letters, period, underscore and hyphen, and can not end with a period. また, 名前は %d 文字より長くなってはなりません.',
+    
       'Users' => 'ユーザ',
     
       'Users who can edit a project can always join a project.' => 'プロジェクトの編集者は参加可能でもあります.',
@@ -6431,7 +6991,7 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
     
       'View Full Transcript' => 'すべての Transcript を見る',
     
-      'View Herald Transcript' => 'Herald Transcript を見る',
+      'View Herald Transcript' => 'ヘラルド Transcript を見る',
     
       'View History' => '履歴を見る',
     
@@ -6513,11 +7073,19 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
     
       'Watchers' => 'ウォッチャー',
     
+      'Watching a project will let you monitor it closely. You will receive email and notifications about changes to every object associated with projects you watch.' => 'プロジェクトをウォッチすることでより詳細に動向を知ることができます. このプロジェクトに関するオブジェクトが変更されるたびに, Email や 通知を受け取ることになるでしょう.',
+    
       'Water Cycle' => '水の循環',
+    
+      'We need to talk about things' => 'なにか話し合う必要がある',
+    
+      'Web' => 'ウェブ',
     
       'Wed' => '水',
     
       'Wednesday' => '水曜日',
+    
+      'Week To Date' => '過去1週	間',
     
       'Weigh In' => '踏み入る',
     
@@ -6536,6 +7104,10 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
       'When all of these conditions are met:' => 'これら全ての条件が満たされた時:',
     
       'When any of these conditions are met:' => 'これらの条件のうち最低1つが満たされた時:',
+    
+      'Whitespace Changes:' => '空白文字の違い:',
+    
+      'Who Should Sign?' => '誰が署名するか?',
     
       'Wide Open Sky' => '開けた青空',
     
@@ -6561,6 +7133,8 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
     
       'Working Copy OK' => 'ローカルコピー OK',
     
+      'Write "Fixes T123" in your summary to automatically close the corresponding task when this change lands.' => 'この変更が受諾/適用されたときに, 対応するタスクを自動クローズとするには "Fixes T123" とサマリ内に記述してください.',
+    
       'Write Post' => 'ポストを書く',
     
       'Yellow' => '黄色',
@@ -6581,19 +7155,47 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
     
       'You are not currently tracking time on this object.' => '現在このオブジェクトを時間追跡していません.',
     
+      'You are not logged in. %s to see your calendar events.' => 'あなたはログインしていません. %s to see your calendar events.',
+    
+      'You are performing too many actions too quickly.' => 'あなたは, 大量のアクションを連続して実行しすぎています.',
+    
+      'You are taking an action which requires you to enter high security.' => '高セキュリティが必要なアクションを実行しようとしています.',
+    
+      'You are trying to save some data to Phabricator, but the request your browser made included an incorrect token. Reload the page and try again. You may need to clear your cookies.\n\n%s' => 'You are trying to save some data to Phabricator, but the request your browser made included an incorrect token. ページを再読み込みしてもう一度お試しください。. ブラウザの Cookie をクリアしなければならないかもしれません.\n\n%s',
+    
+      'You can adjust **Application Settings** here to customize when you are emailed and notified.\n\n| Setting | Effect\n| ------- | -------\n| Email | You will receive an email and a notification, but the notification will be marked "read".\n| Notify | You will receive an unread notification only.\n| Ignore | You will receive nothing.\n\n\nIf an update makes several changes (like adding CCs to a task, closing it, and adding a comment) you will receive the strongest notification any of the changes is configured to deliver.\n\nThese preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). To receive email alerts when other objects are created, configure [[ /herald/ | Herald Rules ]].' => 'You can adjust **Application Settings** here to customize when you are emailed and notified.\n\n| Setting | Effect\n| ------- | -------\n| Email | You will receive an email and a notification, but the notification will be marked "read".\n| Notify | You will receive an unread notification only.\n| Ignore | You will receive nothing.\n\n\nIf an update makes several changes (like adding CCs to a task, closing it, and adding a comment) you will receive the strongest notification any of the changes is configured to deliver.\n\nThese preferences **only** apply to objects you are connected to (for example, Revisions where you are a reviewer or tasks you are CC\'d on). 他のオブジェクトが作られたときに Email 通知を受け取るには, [[ /herald/ | ヘラルドルール ]] を設定してください.',
+    
+      'You can also create tasks by sending an email to: %s' => 'メールの送付でもタスクを作ることができます. Email アドレス: %s',
+    
       'You can choose a **Default Branch** for viewing this repository.' => 'このレポジトリを閲覧するときの, **デフォルトブランチ** を選べます.',
     
       'You can flag this %s if you want to remember to look at it later.' => '後で見直すために, この %s にフラグを立てておくことができます.',
     
+      'You can not create a rule for that object, because you do not have permission to edit it. You can only create rules for objects you can edit.' => 'You can not create a rule for that object, because you do not have permission to edit it. 自分に編集権限のあるオブジェクトのみに対してルールを作成できます.',
+    
+      'You can not create an empty diff. Copy/paste a diff, or upload a diff file.' => 'You can not create an empty diff. Diff を コピー/ペーストするか, Diff ファイルをアップロードしてください.',
+    
       'You can not create an empty document.' => '空のドキュメントは作成できません.',
+    
+      'You can not delete your own account.' => '自分自身のアカウントを削除することはできません.',
     
       'You can not hide the default/backlog column on a board.' => 'デフォルト / バックログ カラムを隠すことはできません.',
     
+      'You can not leave this project.' => 'このプロジェクトから離れることはできません.',
+    
+      'You can not post an empty comment.' => '内容が空のコメントを投稿することはできません.',
+    
+      'You can not restart this build.' => 'このビルドを再度開始できません.',
+    
       'You can not update the Lock Project setting.' => 'あなたはプロジェクトのロック設定を変更できません.',
+    
+      'You can remove your VCS password, which will prevent your account from accessing repositories.' => 'VCS パスワードは削除が可能です. 削除することであなたのアカウントによるレポジトリ利用を防止することができます.',
     
       'You can update the Lock Project setting.' => 'あなたがプロジェクトのロック設定を変更できます.',
     
       'You can update these %d value(s) here:' => 'あなたは, これら %d つの値を変更できます:',
+    
+      'You do not currently have a VCS password set. If you set one, you can remove it here later.' => 'あなたは現在 VCS パスワードを設定していません. 追加した後は, ここで削除を行えます.',
     
       'You do not have permission to access this repository.' => 'このレポジトリにアクセスする権限がありません.',
     
@@ -6627,13 +7229,11 @@ Today, I went to the store. りんごを一つ, 買いました. バナナを一
     
       'You do not have permission to edit task status.' => 'タスクステータスを編集する権限がありません.',
     
-      'You do not have permission to edit this dashboard. If you want to make changes, make a copy first.' => '%24lang-%3E%27You+do+not+have+permission+to+edit+this+dashboard.+If+you+want+to+make+changes%2C+make+a+copy+first.%27
-You do not have permission to edit this dashboard. 変更を加えたい場合はまずコピーを作成してください.',
+      'You do not have permission to edit this dashboard. If you want to make changes, make a copy first.' => 'You do not have permission to edit this dashboard. 変更を加えたい場合はまずコピーを作成してください.',
     
       'You do not have permission to edit this object.' => 'このオブジェクトを編集する権限がありません.',
     
-      'You do not have permission to join any blogs. Create a blog first, then you can post to it.' => '%24lang-%3E%27You+do+not+have+permission+to+join+any+blogs.+Create+a+blog+first%2C+then+you+can+post+to+it.%27
-You do not have permission to join any blogs. ブログをまず作成し, ポストを投稿してください.',
+      'You do not have permission to join any blogs. Create a blog first, then you can post to it.' => 'You do not have permission to join any blogs. ブログをまず作成し, ポストを投稿してください.',
     
       'You do not have permission to join this object.' => 'このオブジェクトに参加する権限がありません.',
     
@@ -6657,7 +7257,7 @@ You do not have permission to join any blogs. ブログをまず作成し, ポ�
     
       'You do not have permissions to push to this repository.' => 'このレポジトリに Push するための権限を満たしていません.',
     
-      'You do not have privileges to access the requested page.' => '要求されたページに対して、アクセス権限がありません',
+      'You do not have privileges to access the requested page.' => '要求されたページに対して, アクセス権限がありません',
     
       'You don\'t have any active sessions.' => 'アクティブなセッションはありません.',
     
@@ -6665,13 +7265,25 @@ You do not have permission to join any blogs. ブログをまず作成し, ポ�
     
       'You have %d unresolved setup issue(s)...' => '%d 件のセットアップ上の課題が残っています...',
     
-      'You have already answered this question. You can not answer twice, but you can edit your existing answer.' => 'あなたは既にこの質問に回答しています. 再び回答することはできませんが, 今ある回答を編集することはできます.',
+      'You have already answered this question. You can not answer twice, but you can edit your existing answer.' => 'You have already answered this question. 再び回答することはできませんが, 今ある回答を編集することはできます.',
+    
+      'You have no accounts!' => 'あなたにはアカウントがありません!',
     
       'You have no linked accounts.' => 'リンクされたアカウントはありません.',
     
       'You have no messages.' => '受け取ったメッセージはありません.',
     
       'You have no notifications.' => '受け取った通知はありません.',
+    
+      'You have no revisions waiting on others.' => '他のユーザの対応待ちリビジョンはありません.',
+    
+      'You have no unpublished drafts.' => '出版されていない下書きはありません.',
+    
+      'You have no unread notifications.' => '未読の通知はありません.',
+    
+      'You have not signed this document yet.' => 'このドキュメントにはあなたの署名はありません.',
+    
+      'You have not verified the email address for your account (%s). You must verify your email address before you can interact with Phabricator over email.' => 'You have not verified the email address for your account (%s). Phabricator を利用する前に, まず Email アドレスの検証を済ませてください.',
     
       'You have not written any posts.' => 'まだポストが1つもか書かれていません.',
     
@@ -6691,6 +7303,8 @@ You do not have permission to join any blogs. ブログをまず作成し, ポ�
     
       'You must call setType() before render()!' => 'render() の前には, setType() が呼び出されていなければなりません.!',
     
+      'You must check "I agree to the terms laid forth above."' => '"私は上記に定める条項に同意します." にチェックが入っていません',
+    
       'You must choose a callsign for this repository.' => 'このレポジトリのコールサインを選んでください.',
     
       'You must choose a content type for this rule.' => 'このルールのコンテントタイプを選んでください.',
@@ -6707,32 +7321,83 @@ You do not have permission to join any blogs. ブログをまず作成し, ポ�
     
       'You must choose a title for this revision.' => 'このリビジョンのタイトルを選んでください.',
     
+      'You must confirm the new password.' => '新しいパスワードを確認してください.',
+    
       'You must give the countdown a name.' => 'カウントダウンには名前を付けなければなりません.',
     
       'You must give the countdown a valid end date.' => 'カウントダウンには正しい終了時間の指定が必要です.',
     
       'You must give the mock a name.' => 'モックには名前を付けなければなりません.',
     
+      'You must launch at least one daemon.' => 'デーモンプロセスを1つは起動していなければなりません.',
+    
+      'You must load hunks via changesets, with withChangesets()!' => 'withChangesets() を呼び出してチェンジセットから断片を読み込んでください!',
+    
+      'You must log in to access repositories.' => 'レポジトリにアクセスするにはログインしてください.',
+    
+      'You must log in to access this repository.' => 'このレポジトリにアクセスするにはログインしてください.',
+    
+      'You must log in to push to this repository.' => 'このレポジトリに Push するにはログインしてください.',
+    
+      'You must login to continue.' => '続けるにはログインしてください.',
+    
+      'You must name the query.' => 'このクエリに名前を付けてください.',
+    
+      'You must name this blueprint.' => 'このブループリントに名称を付けてください.',
+    
+      'You must name this public key.' => 'この公開鍵に名称を付けてください.',
+    
       'You must offer at least one response.' => '回答を最低1つは用意する必要があります.',
+    
+      'You must pass the user to AphrontFormView.' => 'ユーザを AphrontFormView に渡す必要があります.',
+    
+      'You must provide a remote URI.' => 'Remote URI は必須項目です.',
+    
+      'You must provide a revision title in the first line of your commit message.' => 'コメントメッセージの最初の一行として, リビジョンタイトルを与えてください.',
+    
+      'You must provide a test plan. Describe the actions you performed to verify the behavior of this change.' => 'テストプランを考えてください. この変更の動作検証をどのようにしたかを記述してください.',
+    
+      'You must provide an SSH Public Key.' => 'SSH 公開鍵を入力してください.',
+    
+      'You must provide an email address.' => 'Email アドレスを入力してください.',
+    
+      'You must select a file to upload.' => 'アップロードするファイルを指定してください.',
     
       'You must specify a URI.' => 'URI を指定してください.',
     
       'You must upload an audio file.' => '音声ファイルがアップロードされていません.',
     
+      'You must upload an image to create a macro.' => 'マクロを作成するにはまず画像をアップロードしてください.',
+    
+      'You must upload an image.' => '画像をアップロードしてください.',
+    
+      'You must upload audio.' => '音声ファイルをアップロードしてください.',
+    
+      'You must verify your email address to login. You should have a new email message from Phabricator with verification instructions in your inbox (%s).' => 'You must verify your email address to login. あなたのメールボックス (%s)に , Phabricator からの検証手順が書かれた Email メッセージが届いているはずです.',
+    
+      'You must vote to see the results.' => '結果を表示するには投票が必要です.',
+    
+      'You signed this document on %s.' => 'あなたは %s に, このドキュメントに署名をしました.',
+    
       'Your VCS password has been updated.' => 'VCS パスワードが更新されました.',
     
-      'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.' => 'あなたのアカウントが作成されましたが、管理者による承認を待たなければなりません. アカウント承認後に, あなたの元へ Email が届きます.',
+      'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.' => 'Your account has been created, but needs to be approved by an administrator. アカウント承認後に, あなたの元へ Email が届きます.',
     
       'Your account has been disabled.' => 'あなたのアカウントは無効化されています.',
     
-      'Your account is linked with all available providers.' => 'このアカウントは、使用可能なすべてプロバイダとリンク済です.',
+      'Your account is linked with all available providers.' => 'このアカウントは, 使用可能なすべてプロバイダとリンク済です.',
     
-      'Your login session is invalid. Try reloading the page and logging in again. If that does not work, clear your browser cookies.' => 'あなたの保持しているセッションは無効です. ページを一度リロードした後, 再度ログインしてください. もしそれでも状態が変わらないなら, ブラウザの Cookie を消去してください.',
+      'Your browser did not submit a "%s" cookie with client state information in the request. Check that cookies are enabled. If this problem persists, you may need to clear your cookies.' => 'Your browser did not submit a "%s" cookie with client state information in the request. Check that cookies are enabled. この問題が続く場合は, ブラウザの Cookie をクリアしなければならないかもしれません.',
+    
+      'Your browser did not submit a registration key with the request. You must use the same browser to begin and complete registration. Check that cookies are enabled and try again.' => 'Your browser did not submit a registration key with the request. You must use the same browser to begin and complete registration. ブラウザの Cookie が有効になっているか確かめ, もう一度お試しください.',
+    
+      'Your browser submitted a different registration key than the one associated with this account. You may need to clear your cookies.' => 'Your browser submitted a different registration key than the one associated with this account. ブラウザの Cookie をクリアしなければならないかもしれません.',
+    
+      'Your login session is invalid. Try reloading the page and logging in again. If that does not work, clear your browser cookies.' => 'Your login session is invalid. ページを一度リロードした後, 再度ログインしてください. もしそれでも状態が変わらないなら, ブラウザの Cookie を消去してください.',
     
       'Your new password is too short.' => '新しいパスワードが短すぎます.',
     
-      'Your tremendous contributions to this project will be sorely missed. Are you sure you want to leave?' => '%24lang-%3E%27Your+tremendous+contributions+to+this+project+will+be+sorely+missed.+Are+you+sure+you+want+to+leave%3F%27
-Your tremendous contributions to this project will be sorely missed. 本当に離れたいのですか?',
+      'Your tremendous contributions to this project will be sorely missed. Are you sure you want to leave?' => 'Your tremendous contributions to this project will be sorely missed. 本当に離れたいのですか?',
     
       'Zucchini' => 'ズッキーニ',
     
@@ -6766,7 +7431,11 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
     
       'exists' => 'が存在する',
     
+      'has bit' => 'が次のビットを持つ',
+    
       'include all of' => 'が次の全てを含む',
+    
+      'include any of' => 'が次のいずれかを含む',
     
       'is' => 'が',
     
@@ -6794,6 +7463,8 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
     
       'italic text' => 'イタリック体のテキスト',
     
+      'lacks bit' => 'が次のビットを持たない',
+    
       'matches regexp' => 'が次の正規表現にマッチ',
     
       'matches regexp pair' => 'が次の正規表現のペアにマッチ',
@@ -6820,12 +7491,12 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
     
       'No daemon(s) with id(s) "%s" exist!' => 'ID %s のデーモンプロセスが存在しません!',
       'These %d configuration value(s) are related:' => 'この設定値は以下に関連しています:',
-      'Differential Revision(s)' => 'Differential リビジョン',
+      'Differential Revision(s)' => 'Differential Revision',
       'file(s)' => 'ファイル',
       'Maniphest Task(s)' => 'Maniphest タスク',
       'Task(s)' => 'タスク',
 
-      'Please fix these errors and try again.' => 'このエラーを修正し、もう一度試してください.',
+      'Please fix these errors and try again.' => 'このエラーを修正し, もう一度試してください.',
 
       '%d Error(s)' => '%d 件のエラー',
       '%d Warning(s)' => '%d 件の警告',
@@ -6883,9 +7554,9 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
 
       '%s edited revision(s)\, added %d: %s; removed %d: %s.' => 'リビジョンが編集された, 追加: %3$s; 削除: %5$s',
 
-      'There are %d raw fact(s) in storage.' => 'ストレージには、ファクトが %d 件あります.',
+      'There are %d raw fact(s) in storage.' => 'ストレージには, ファクトが %d 件あります.',
 
-      'There are %d aggregate fact(s) in storage.' => 'ストレージには、取得済みのファクトが %d 件あります.',
+      'There are %d aggregate fact(s) in storage.' => 'ストレージには, 取得済みのファクトが %d 件あります.',
 
       '%d Commit(s) Awaiting Audit' => '%d 件のコミットが監査待ち',
 
@@ -6910,7 +7581,7 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
 
       'This is a binary file. It is %s byte(s) in length.' => 'バイナリーファイルです. %s バイトの長さです.',
 
-      '%d Action(s) Have No Effect' => 'アクションは、何の変化ももたらしません',
+      '%d Action(s) Have No Effect' => 'アクションは, 何の変化ももたらしません',
 
       '%d Action(s) With No Effect' => '空のアクション',
 
@@ -7082,15 +7753,15 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
 
       'The current MySQL configuration has these %d value(s):' => '現状の MySQL 設定値:',
 
-      'To update these %d value(s)\, run these command(s) from the command line:' =>  'この値を更新するには、以下のコマンドをコマンドラインで実行して:',
+      'To update these %d value(s)\, run these command(s) from the command line:' =>  'この値を更新するには, 以下のコマンドをコマンドラインで実行して:',
 
-      'You can update these %d value(s) here:' => '値は、この場所で更新することができます:',
+      'You can update these %d value(s) here:' => '値は, この場所で更新することができます:',
 
       'The current PHP configuration has these %d value(s):' => '現状の PHP 設定値:',
 
-      'To update these %d value(s)\, edit your PHP configuration file.' => '%d の値を更新するために、 PHP 設定ファイルを編集してください.',
+      'To update these %d value(s)\, edit your PHP configuration file.' => '%d の値を更新するために, PHP 設定ファイルを編集してください.',
 
-      'To update these %d value(s)\, edit your PHP configuration file, located here:' => '値を更新するために、以下の場所にある PHP設定ファイルを編集してください:',
+      'To update these %d value(s)\, edit your PHP configuration file, located here:' => '値を更新するために, 以下の場所にある PHP設定ファイルを編集してください:',
 
       'PHP also loaded these configuration file(s):' => 'PHP はこの設定ファイルも読み込んでいます:',
 
@@ -7102,7 +7773,7 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
       '%d rejection(s)' => '%d 件の却下',
       '%d update(s)' => '%d 件の更新',
 
-      'This configuration value is defined in these %d configuration source(s): %s.' => '設定値は、以下の設定元で定義されています: %2$s.',
+      'This configuration value is defined in these %d configuration source(s): %s.' => '設定値は, 以下の設定元で定義されています: %2$s.',
 
       '%d Open Pull Request(s)' => '%d 件の Pull Request が Open',
 
@@ -7170,7 +7841,7 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
 
       '%s added %d JIRA issue(s): %s.' => '%s が JIRA の Issue を追加した: %3$s.',
 
-      '%s added %d required legal document(s): %s.' => '%s が、必須の法的書類を追加した: %3$s.',
+      '%s added %d required legal document(s): %s.' => '%s が, 必須の法的書類を追加した: %3$s.',
 
       '%s updated JIRA issue(s): added %d %s; removed %d %s.' => '%s が JIRA の Issue を更新した: 追加 %3$s; 削除 %5$s.',
 
@@ -7236,7 +7907,6 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
       'Nothing appears to be critically broken right now.' => '今のところ, 何も致命的に壊れてはいないようです.',
 
       'No "Needs Triage" Tasks' => '"応急処置求む" タスク なし',
-      'No tasks in <a href="/project/">projects you are a member of</a> need triage.' => '<a href="/project/">あなたの配属されたプロジェクト</a> には応急処置タスクがありません.',
         
       'No Waiting Revisions' => '待機中のリビジョン なし',
       'No revisions are waiting on you.' => 'あなたの対応待ちになっているリビジョンはありません.',
@@ -7289,6 +7959,30 @@ Your tremendous contributions to this project will be sorely missed. 本当に�
       'Phriction Documents' => 'Phriction ドキュメント',
       'Task status' => 'タスクステータス',
       'Type task status name...' => 'タスクステータス名を入力...',
+
+      'Username or password are incorrect.' => 'ユーザ名またはパスワードが正しくありません.',
+      'Username or Email' => 'ユーザ名 もしくは Email アドレス',
+
+      'January' => '1月',
+      'February' => '2月',
+      'March' => '3月',
+      'April' => '4月',
+      'May' => '5月',
+      'June' => '6月',
+      'July' => '7月',
+      'August' => '8月',
+      'September' => '9月',
+      'October' => '10月',
+      'November' => '11月',
+      'December' => '12月',
+      'Week of %s' => '%s の週',
+
+      'Committed' => 'コミット日時',
+      'Pushed' => 'Push 日時',
+      'Changes (%d)' => '変更 (%d)',
+      'Project/Package Auditors' => '監査人',
+      'References' => '参照',
+      'Wikis Have Changed' => 'Wiki の仕様は変わりました',
 
     );
   }
