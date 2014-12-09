@@ -2409,13 +2409,23 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Customized' => 'カスタム値',
     
+      'DETAILS' => '詳細',
+    
       'DIFFERENTIAL REVISION' => 'DIFFERENTIAL リビジョン',
+    
+      'DOCUMENT DETAIL' => 'ドキュメントの詳細',
+    
+      'Daemon %s' => 'デーモン %s',
+    
+      'Daemon %s exited.' => 'デーモン %s は終了しました.',
+    
+      'Daemon \'%s\' has no PID!' => 'デーモン \'%s\' は PID を持ちません!',
     
       'Daemon Class' => 'デーモンクラス',
     
       'Daemon Console' => 'デーモンコンソール',
     
-      'Daemon Log' => 'デーモン Log',
+      'Daemon Log' => 'デーモン ログ',
     
       'Daemons' => 'デーモン',
     
@@ -2423,9 +2433,15 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Daemons and Web Have Different Config' => 'デーモンプロセスとウェブサーバプロセスが異なる設定を使用しています',
     
+      'Daemons are initializing the working copy.' => 'デーモンは作業用コピーを初期化しています.',
+    
+      'Daemons in library __%s__:' => 'ライブラリ __%s__ 内のデーモン:',
+    
       'Dangerous Changes' => '危険な変更',
     
       'Dark Console' => 'ダーク コンソール',
+    
+      'DarkConsole is a development and profiling tool built into Phabricator\'s web interface. You should leave it disabled unless you are developing or debugging Phabricator.\n\nOnce you activate DarkConsole for the install, **you need to enable it for your account before it will actually appear on pages.** You can do this in Settings > Developer Settings.\n\nDarkConsole exposes potentially sensitive data (like queries, stack traces, and configuration) so you generally should not turn it on in production.' => 'ダークコンソールは Phabricator Web UI 上に構築された 開発／プロファイリングツール です. You should leave it disabled unless you are developing or debugging Phabricator.\n\nOnce you activate DarkConsole for the install, **you need to enable it for your account before it will actually appear on pages.** You can do this in Settings > Developer Settings.\n\nDarkConsole exposes potentially sensitive data (like queries, stack traces, and configuration) so you generally should not turn it on in production.',
     
       'Dashboard' => 'ダッシュボード',
     
@@ -2686,6 +2702,10 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       'Donate' => '寄付',
     
       'Done' => '完了',
+    
+      'Done.' => '完了.',
+    
+      'Done. Migrated %d keys.' => '完了. Migrated %d keys.',
     
       'Doubloon' => 'ダブロン金貨',
     
@@ -3217,6 +3237,8 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Fire Exit' => '非常口',
     
+      'First' => '先頭',
+    
       'Flag %s' => '%s にフラグを立てる',
     
       'Flag Color' => 'フラグの色',
@@ -3295,7 +3317,9 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Free Lease' => 'リースを解放',
     
-      'Freeing task leases...' => 'task leases...',
+      'Freed %s task lease(s).' => '%s 個のタスクリースを解放しました.',
+    
+      'Freeing task leases...' => 'アクティブなタスクリースを解放中...',
     
       'Fri' => '金',
     
@@ -3611,9 +3635,31 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Interface' => 'インターフェイス',
     
+      'Interrupting daemon \'%s\' (%s)...' => 'デーモン \'%s\' (%s) に割り込んでいます...',
+    
       'Invalid' => '不適切',
     
+      'Invalid Client Application' => '不正なクライアントアプリケーション',
+    
+      'Invalid Key' => '不正な鍵',
+    
+      'Invalid OAuth Access Token' => '不正な OAuth アクセストークン',
+    
+      'Invalid Policy' => '不正なポリシー',
+    
+      'Invalid Redirect URI' => '不正なリダイレクト URI',
+    
+      'Invalid Response Type' => '不正なレスポンスタイプ',
+    
+      'Invalid Scope' => '不正なスコープ',
+    
+      'Invalid blog PHID or user can not post to blog.' => '不正なブログ PHID またはユーザの投稿できないブログ.',
+    
+      'Invalid build ID "%s".' => '不正なビルド ID "%s".',
+    
       'Invalid credentials.' => '無効なクレデンシャル.',
+    
+      'Invalid effect!' => '不正なエフェクト!',
     
       'Invalid or incorrect credit card number.' => '無効な もしくは 未入力のクレジットカード番号.',
     
@@ -3701,6 +3747,14 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Launcher' => 'ランチャ',
     
+      'Launching daemon "%s" in debug mode (not daemonized) with arguments %s.\n' => 'デーモン "%s" をデバッグモードで起動中 (非デーモンモード). パラメータ: %s.\n',
+    
+      'Launching daemon "%s" in debug mode (not daemonized).\n' => 'デーモン "%s" をデバッグモードで起動中 (非デーモンモード).\n',
+    
+      'Launching daemon "%s" with arguments %s.\n' => 'デーモン "%s" を起動中. パラメータ: %s\n',
+    
+      'Launching daemon "%s".\n' => 'デーモン "%s" を起動中.\n',
+    
       'Layout Mode' => 'レイアウトモード',
     
       'Leader Board' => 'リーダボード',
@@ -3756,6 +3810,8 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       'Link External Account' => '外部アカウントをリンク',
     
       'Link LDAP Account' => 'LDAP アカウントをリンク',
+    
+      'Link to edit files in external editor. %%f is replaced by filename, %%l by line number, %%r by repository callsign, %%%% by literal %%. For documentation, see: %s' => 'ファイルを外部エディタ編集するためのリンク文字列です. %%f はファイル名に, %%l は行番号に, %%r はレポジトリのコールサインに, %%%% は %% に置き換えられます. 詳細は次を参照: %s',
     
       'Linked Accounts and Authentication' => 'リンクされたアカウント及び認証',
     
@@ -4041,7 +4097,7 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Monospaced Font' => '固定幅フォント',
     
-      'Monospaced Textareas' => '固定幅フォント テキストエリア',
+      'Monospaced Textareas' => '入力エリアに固定幅を仕様',
     
       'Month To Date' => '過去1カ月間',
     
@@ -4095,7 +4151,11 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'MySQL is configured to only index words with at least %d characters.' => 'MySQL が, %d 字以上の単語のみがインデックス対象になるよう設定されています.',
     
-      'NOTE: The configuration setting [[ %s | %s ]] is currently disabled. You must enable it to activate authenticated access to repositories over HTTP.' => 'NOTE: The configuration setting [[ %s | %s ]] is currently disabled. HTTP 経由のレポジトリ利用では, 認証付のアクセスが有効にされていなければなりません.',
+      'NOTE: Changing your password will terminate any other outstanding login sessions.' => 'NOTE: パスワードを変更するとこのブラウザ以外のあなたのログインセッションは停止されます.',
+    
+      'NOTE: Logs will appear in \'%s\'.' => 'NOTE: ログは \'%s\' に送られます.',
+    
+      'NOTE: The configuration setting [[ %s | %s ]] is currently disabled. You must enable it to activate authenticated access to repositories over HTTP.' => 'NOTE: 設定エントリ [[ %s | %s ]] は現在無効化されています. HTTP 経由のレポジトリ利用では, 認証付のアクセスが有効にされていなければなりません.',
     
       'NOTE: This provider **only supports JIRA 6**. It will not work with JIRA 5 or earlier.' => 'NOTE: This provider **only supports JIRA 6**. JIRA 5 以前のバージョンでは正常動作を保証しません.',
     
@@ -4214,6 +4274,10 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       'New username is required.' => '新しいユーザ名が必須です.',
     
       'New username must be different from old username.' => '新しいユーザ名は, 古いユーザ名と異なっていなければなりません.',
+    
+      'Next' => '次へ',
+    
+      'Next Change \302\273' => '次の変更 \302\273',
     
       'Next Step' => '次のステップ',
     
@@ -4423,7 +4487,7 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Not Submitted Yet' => 'まだ提出されていません',
     
-      'Not Supported' => 'サポートされていません',
+      'Not Supported' => 'サポートなし',
     
       'Not Tracking Time' => '時間追跡はしていません',
     
@@ -4520,6 +4584,8 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       'Only you can edit your information.' => '自分の情報は, 自分だけが変更することができます.',
     
       'Only you can see the results.' => 'あなただけが結果を見ることができます.',
+    
+      'Open All in Editor' => '全てをエディタで開く',
     
       'Open Audits' => 'Open な監査',
     
@@ -4827,11 +4893,15 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Preamble' => '前文',
     
+      'Preparing to launch daemons.' => 'デーモン起動の準備中.',
+    
       'Press %s to show keyboard shortcuts.' => '%s キーを押下でショートカットを表示.',
     
       'Press \'/\' to focus the search input.' => '\'/\' キー押下で検索語入力を開始',
     
       'Pretty Clearly an Airplane' => '間違いなく飛行機',
+    
+      'Prev' => '前へ',
     
       'Prevent Conduit Access' => 'Conduit のアクセスを不許可',
     
@@ -6049,6 +6119,8 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'Sun' => '日',
     
+      'Supported (paths separated by spaces)' => 'サポートする (複数パスをスペースで区切る)',
+    
       'Supported formats: %s' => '扱える形式: %s',
     
       'Surprise!' => 'ドッキリ!',
@@ -6263,21 +6335,27 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
     
       'This credential will be locked and the secret will be hidden forever. Anything relying on this credential will still function. This operation can not be undone.' => 'This credential will be locked and the secret will be hidden forever. Anything relying on this credential will still function. この処理は元に戻すことはできません.',
     
-      'This daemon did not report a status update for %s. It is presumed dead. Usually, this indicates that the daemon was killed or otherwise exited abruptly with an error. You may need to restart it.' => 'This daemon did not report a status update for %s. 亡くなったものと思われます.. 大抵のケースで, この状態はデーモンが意図的に Kill されたか, エラー発生により突然終了したかのどちらかを表しています. おそらく手動で再起動の必要があるでしょう.',
+      'This daemon did not report a status update for %s. It is presumed dead. Usually, this indicates that the daemon was killed or otherwise exited abruptly with an error. You may need to restart it.' => 'このデーモンは, %s の間ステータス更新報告をしていません. 亡くなったものと思われます.. 大抵のケースで, この状態はデーモンが意図的に Kill されたか, エラー発生により突然終了したかのどちらかを表しています. おそらく手動で再起動の必要があるでしょう.',
+    
+      'This daemon encountered an error recently and is waiting a moment to restart.' => 'このデーモンは最近エラーを発見し, 再起動を待っています.',
     
       'This daemon exited cleanly.' => 'このデーモンは通常終了しました.',
     
       'This daemon exited normally and is no longer running.' => 'このデーモンは通常終了し, 現在動作していません.',
     
-      'This daemon has not reported a status update recently (within %s). It may have exited abruptly. After %s, it will be presumed dead.' => 'This daemon has not reported a status update recently (within %s). 突然終了した可能性があります. %s 経過後は, 亡くなったものとして扱います.',
+      'This daemon has not reported a status update recently (within %s). It may have exited abruptly. After %s, it will be presumed dead.' => 'このデーモンからは最近連絡がありません (%s 以内). 突然終了した可能性があります. %s 経過後は, 亡くなったものとして扱います.',
     
-      'This daemon has not reported its status recently. It may have exited uncleanly.' => 'This daemon has not reported its status recently. 終了処理なしに亡くなった可能性があります.',
+      'This daemon has not reported its status recently. It may have exited uncleanly.' => 'このデーモンからは最近, 連絡がありません. 終了処理なしに亡くなった可能性があります.',
     
       'This daemon is exiting.' => 'このデーモンは終了しています.',
     
       'This daemon is lost or exited uncleanly, and is presumed dead.' => 'このデーモンは, コントロールが失われ, 終了処理なしに行方不明となりました. 亡くなったものと思われます.',
     
-      'This daemon is running normally and reported a status update recently (within %s). However, it encountered an error while doing work and is waiting a little while (%s) to resume processing. After encountering an error, daemons wait before resuming work to avoid overloading services.' => 'This daemon is running normally and reported a status update recently (within %s). しかしながら, 動作中にエラーに遭遇し, 少しの間 (%s) 動作を停止してから処理を続行しようとしています. エラーが発生した時, 各デーモンは処理続行まで間隔を取ることで負荷の増大を避けるようにしています.',
+      'This daemon is running normally and reported a status update recently (within %s).' => 'このデーモンは通常動作をしており, 直近のステータス更新報告があります (%s 以内).',
+    
+      'This daemon is running normally and reported a status update recently (within %s). However, it encountered an error while doing work and is waiting a little while (%s) to resume processing. After encountering an error, daemons wait before resuming work to avoid overloading services.' => 'このデーモンは通常動作をしており, 直近のステータス更新報告があります (%s 以内). しかしながら, 動作中にエラーに遭遇し, 少しの間 (%s) 動作を停止してから処理を続行しようとしています. エラーが発生した時, 各デーモンは処理続行まで間隔を取ることで負荷の増大を避けるようにしています.',
+    
+      'This daemon is running with an out of date configuration and should be restarted.' => 'このデーモンは古い設定データを保持・参照して動作しています. 再起動されるべきです.',
     
       'This daemon is running.' => 'デーモンは動作しています.',
     
@@ -7364,6 +7442,10 @@ abstract class PhabricatorBaseJapaneseTranslation extends PhabricatorTranslation
       'You must select a file to upload.' => 'アップロードするファイルを指定してください.',
     
       'You must specify a URI.' => 'URI を指定してください.',
+    
+      'You must specify which daemon to debug.' => 'どのデーモンをデバッグするかを指定してください.',
+    
+      'You must specify which daemon to launch.' => 'どのデーモンを起動するかを指定してください.',
     
       'You must upload an audio file.' => '音声ファイルがアップロードされていません.',
     
